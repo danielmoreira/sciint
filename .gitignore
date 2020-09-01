@@ -1,0 +1,6 @@
+pdf_image_extraction_dataset/
+pdf_image_extraction_dataset.zip
+dataset/
+pdfs/
+extraction_time.txt
+xfigs/
