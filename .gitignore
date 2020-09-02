@@ -3,4 +3,11 @@ pdf_image_extraction_dataset.zip
 dataset/
 pdfs/
 extraction_time.txt
+xp1/
+xp2/
+xp1_and_xp2/
+.ipynb*
+selected_figures/
+panel_extraction_src/
 xfigs/
+panel_dataset/
