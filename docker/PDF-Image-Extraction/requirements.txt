@@ -1,4 +1,0 @@
-numpy>=1.14.3
-Pillow>=5.0.0
-PyMuPDF==1.14.21
-
