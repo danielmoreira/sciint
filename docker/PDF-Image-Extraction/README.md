@@ -1,12 +1,14 @@
 # PDF-Image-Extraction
-This is a tool developed by the Unicamp team to the Scientific Integrity Project on [MediFor](ww.darpa.mil/program/media-forensics) program.
+Extract images from PDFs using the PDF stream data
 
-This tool extract images from raw PDF data
+-----
+
+## Instructions
 
 It has 3 operations mode:
 
 * <u>SAFE MODE</u>: Extract images that has xref, considering alpha layers and stencil  mask  but not  data corruption
-*  <u>NORMAL MODE</u>: Extract images that has xref and have being duplicate. It considered alpha layers, stencil masks, images positions on page, data corruption.  But it could fails if the image is too small.
+*  <u>NORMAL MODE</u>: Extract images that has xref and have being duplicate. It considered alpha layers, stencil masks, images positions on page, data corruption.  But, it could fails if the image is too small.
 * <u>UNSAFE MODE</u>: Extract all images , even without xref, and it has no warranty.(NOT RECOMMENDED).
 
 ​     All images are saved in <*.png> format.
