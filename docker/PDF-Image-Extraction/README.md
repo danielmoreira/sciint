@@ -56,8 +56,6 @@ João Phillipe Cardenuto ,
 
 ```
 				 UNICAMP (University of Campinas) RECOD Lab
-
-			          University ID (RA) : 170674
 ```
 
 You may send me an email to any kind of discussion or collaboration:  phillipe.cardenuto@ic.unicamp.br
