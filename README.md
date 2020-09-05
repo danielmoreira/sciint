@@ -1,6 +1,6 @@
 # Content Segmentation 
 
-This module segments  compound figure into panels (region of interest). For this task, we used the implementation of Satoshi Tsutsui, and David Crandall [1]. Their code, model and its weights can be found in this [link](https://github.com/apple2373/figure-separator). 
+This module segments  compound figure into panels (region of interest). For this task, we used the implementation of Satoshi Tsutsui, and David Crandall [1]. Their code, model and weights can be found in this [link](https://github.com/apple2373/figure-separator). 
 
 # Evaluation
 
