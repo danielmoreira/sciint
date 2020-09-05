@@ -1,7 +1,7 @@
 import sys
 import os
 import math
-import caption_extractor
+from .caption_extractor import extract_figure_captions as extract_caption
 import argparse
 
 
@@ -28,7 +28,7 @@ def _parse_figure_file_name(figure_file_name):
 # Greedy algorithm that tries to link captions to figures, based on their page positions.
 # Returns the list of captions with the same size of <figure_positions>,
 # since it attributes one caption to each figure.
-def _link_captions_to_figures(figure_positions, caption_positions):
+def _link_captions_to_figures(figure_positions, caption_positions, testing=False):
     output = []
 
     # for each figure
@@ -40,8 +40,10 @@ def _link_captions_to_figures(figure_positions, caption_positions):
                 candidate_caption_positions.append(caption_position)
 
         if len(candidate_caption_positions) == 0:
-            # output.append(('', 0, ''))
-            raise Exception('[ERROR] There are no captions on page', figure_position[1], 'where figure',
+            if testing:
+                output.append(('', -1, (-1,-1,-1,-1)))
+            else:
+                raise Exception('[ERROR] There are no captions on page', figure_position[1], 'where figure',
                             figure_position[0], 'is depicted.')
 
         elif len(candidate_caption_positions) == 1:
@@ -98,7 +100,7 @@ def extract_figure_captions(figure_list_file_path, pdf_file_path):
         figure_positions.append(_parse_figure_file_name(fp.split(os.path.sep)[-1]))
 
     # obtains the captions from the given pdf file
-    caption_positions = caption_extractor.extract_figure_captions(pdf_file_path)
+    caption_positions = extract_caption(pdf_file_path)
 
     # greedly links captions to figures
     caption_list = _link_captions_to_figures(figure_positions, caption_positions)

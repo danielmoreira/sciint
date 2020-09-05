@@ -1,0 +1,2 @@
+from .caption_extractor import extract_figure_captions as extract_caption
+from .caption_to_figure import _link_captions_to_figures as link_captions_to_figures 
