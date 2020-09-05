@@ -17,3 +17,8 @@ After this, use `run_image_extraction.sh` file to communicate with the docker an
 
 The experimental setup and result for the image extraction module are summarized in the `PDF Image Extraction` notebook.
 
+## Caption Extraction
+
+The instructions and code of caption extraction are located in [caption_extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/caption_extraction) directory.
+
+The experimental setup and result for the caption extraction module are summarized in the `PDF Caption Extraction` notebook.
