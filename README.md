@@ -8,7 +8,7 @@ This module segments  compound figure into panels (region of interest). For this
 
 To evaluate the method [1] on our data, first, two experts annotated the coordinates of each region of interest from a subset of figures from our dataset. Then, to generate the final ground-truth we selected the regions where the experts agreed - AND Map. Thus, for each figure from the subset, we generate a binary map that indicates where the regions of interest are.
 
-- We are making available our ground-truth data here, along with an adapted version of FigureSeparete[1] - [Google Drive](https://drive.google.com/file/d/1PSrtJ5RK9Xy3mX0EBwR9ICz_ot8ytaSD/view?usp=sharing) 
+- We are making available our ground-truth data here along with an adapted version of FigureSeparete[1] - [Google Drive](https://drive.google.com/file/d/1PSrtJ5RK9Xy3mX0EBwR9ICz_ot8ytaSD/view?usp=sharing) 
 - There you find the annotation of each expert (xp1,xp2); the AND map (xp1_and_xp2); a CSV file with infos related to the selected figure subset; an a adapted version of FigureSeparte for our data.
 
 ### Metric
