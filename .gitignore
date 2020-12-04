@@ -8,3 +8,6 @@ figures/
 .ipynb_checkpoints/
 xcaps/
 ~/
+.env
+
+
