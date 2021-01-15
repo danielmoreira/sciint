@@ -1,4 +1,5 @@
 pdf_image_extraction_dataset/
+pdf-img-extraction-test/
 pdf_image_extraction_dataset.zip
 scientific-integrity-v8/
 dataset/
@@ -8,7 +9,7 @@ xfigs/
 figures/
 .ipynb_checkpoints/
 xcaps/
-~/
+nltk_download/
 .env
 
 
