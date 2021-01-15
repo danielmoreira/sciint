@@ -6,7 +6,7 @@ This module segments  compound figure into panels (region of interest). For this
 
 ### Ground-Truth
 
-To evaluate the method [1] on our data, first, two experts annotated the coordinates of each region of interest from a subset of figures from our dataset. Then, to generate the final ground-truth we selected the regions where the experts agreed - AND Map. Thus, for each figure from the subset, we generate a binary map that indicates where the regions of interest are. These regions are all located as bounding-box annotations on the figure-panel-segmentation.json file. To recover the original images, please make use of the script at [Generate Painels from the Annontation.ipynb](Generate Painels from the Annontation.ipynb).
+To evaluate the method [1] on our data, first, two experts annotated the coordinates of each region of interest from a subset of figures from our dataset. Then, to generate the final ground-truth we selected the regions where the experts agreed - AND Map. Thus, for each figure from the subset, we generate a binary map that indicates where the regions of interest are. These regions are all located as bounding-box annotations on the figure-panel-segmentation.json file. To recover the original images, please make use of the script at [Generate Painels from the Annontation.ipynb](Generate%20Painels%20from%20the%20Annontation.ipynb).
 
 - We are making available an adapted version of FigureSeparete[1] - [Google Drive](https://drive.google.com/file/d/1BVVN736dIm2Gb39g1A9yHNwAJT7PuKX6/view?usp=sharing) to our data
 
