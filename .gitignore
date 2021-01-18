@@ -1,5 +1,7 @@
 pdf_image_extraction_dataset/
+pdf-img-extraction-test/
 pdf_image_extraction_dataset.zip
+scientific-integrity-v8/
 dataset/
 pdfs/
 extraction_time.txt
@@ -15,3 +17,9 @@ panels_mask/
 xcaps/
 figures/
 caption_extraction/
+.ipynb_checkpoints/
+xcaps/
+nltk_download/
+.env
+
+

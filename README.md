@@ -1,3 +1,1 @@
-# Copy Move Detection
-
-TODO: documentation
+# Scientific Integrity Dataset
