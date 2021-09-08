@@ -1,0 +1,8 @@
+numpy
+Pillow
+pytesseract
+imutils
+rawpy
+scikit-image
+scikit-learn
+opencv-contrib-python==3.4.2.17
