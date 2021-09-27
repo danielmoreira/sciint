@@ -75,8 +75,6 @@ def build_adj_matrix(rank_with_probe_last, keypoints_with_probe_last, descriptio
     related_images, all_matches, flip_info = probe_linker.get_related_images_to_probe(rank_with_probe_last,
                                                                                       keypoints_with_probe_last,
                                                                                       descriptions_with_probe_last)
-    if len(related_images) == 1:
-        related_images.append([-1])
     print('[DEBUG]', related_images)
 
     # adjacency matrices
@@ -99,7 +97,7 @@ def build_adj_matrix(rank_with_probe_last, keypoints_with_probe_last, descriptio
 
         # for each pair source-target
         for i in sources:
-            current_js = [i]
+            current_js = []
             for j in targets:
                 if i != j and (i not in targets or i < j):
                     current_js.append(j)

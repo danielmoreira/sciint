@@ -8,8 +8,7 @@ Source code and test script of [SILA](https://github.com/danielmoreira/sciint/tr
 1. Install [Docker.](https://docs.docker.com/get-docker/)
 2. Check out GitLab.
     ```
-    git clone https://github.com/danielmoreira/sciint.git
-    git branch provenance-analysis
+    git clone --branch provenance-analysis https://github.com/danielmoreira/sciint.git
     ```
 3. Build the container. In a terminal, execute within the project root folder:
     ```
