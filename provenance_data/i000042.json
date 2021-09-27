@@ -1,0 +1,40 @@
+{
+   "probe": "prov_images/10.1371_journal.pone.0005877__fig6.png",
+   "images": [
+      "prov_images/10.1371_journal.pone.0005877__fig1.png",
+      "prov_images/10.1371_journal.pone.0005877__fig2.png",
+      "prov_images/10.1371_journal.pone.0005877__fig3.png",
+      "prov_images/10.1371_journal.pone.0005877__fig4.png",
+      "prov_images/10.1371_journal.pone.0005877__fig5.png",
+      "prov_images/10.1371_journal.pone.0005877__fig6.png",
+      "prov_images/10.1371_journal.pone.0010581__fig1.png",
+      "prov_images/10.1371_journal.pone.0010581__fig10.png",
+      "prov_images/10.1371_journal.pone.0010581__fig2.png",
+      "prov_images/10.1371_journal.pone.0010581__fig3.png",
+      "prov_images/10.1371_journal.pone.0010581__fig4.png",
+      "prov_images/10.1371_journal.pone.0010581__fig5.png",
+      "prov_images/10.1371_journal.pone.0010581__fig6.png",
+      "prov_images/10.1371_journal.pone.0010581__fig7.png",
+      "prov_images/10.1371_journal.pone.0010581__fig8.png",
+      "prov_images/10.1371_journal.pone.0010581__fig9.png"
+   ],
+   "dates": [
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517",
+      "20100517"
+   ],
+   "output": "o000042.json"
+}

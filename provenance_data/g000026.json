@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_JVI.02604-09__fig6",
+         "file": "prov_images/10.1128_JVI.02604-09__fig6.jpg",
+         "doi": "10.1128/JVI.02604-09",
+         "fig": "fig6",
+         "pubdate": "2010-7-2",
+         "url": "https://jvi.asm.org/content/jvi/84/15/7683/F6.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_JVI.02604-09__fig8",
+         "file": "prov_images/10.1128_JVI.02604-09__fig8.jpg",
+         "doi": "10.1128/JVI.02604-09",
+         "fig": "fig8",
+         "pubdate": "2010-7-2",
+         "url": "https://jvi.asm.org/content/jvi/84/15/7683/F8.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

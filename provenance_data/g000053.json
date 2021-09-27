@@ -1,0 +1,47 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_jvi.76.13.6815-6824.2002__fig4",
+         "file": "prov_images/10.1128_jvi.76.13.6815-6824.2002__fig4.jpg",
+         "doi": "10.1128/jvi.76.13.6815-6824.2002",
+         "fig": "fig4",
+         "pubdate": "2002-7-1",
+         "url": "https://jvi.asm.org/content/jvi/76/13/6815/F4.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_jvi.76.13.6815-6824.2002__fig6",
+         "file": "prov_images/10.1128_jvi.76.13.6815-6824.2002__fig6.jpg",
+         "doi": "10.1128/jvi.76.13.6815-6824.2002",
+         "fig": "fig6",
+         "pubdate": "2002-7-1",
+         "url": "https://jvi.asm.org/content/jvi/76/13/6815/F6.large.jpg"
+      },
+      {
+         "id": "id2",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_jvi.76.13.6815-6824.2002__fig5",
+         "file": "prov_images/10.1128_jvi.76.13.6815-6824.2002__fig5.jpg",
+         "doi": "10.1128/jvi.76.13.6815-6824.2002",
+         "fig": "fig5",
+         "pubdate": "2002-7-1",
+         "url": "https://jvi.asm.org/content/jvi/76/13/6815/F5.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 2,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

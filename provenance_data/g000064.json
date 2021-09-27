@@ -1,0 +1,62 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_cncr.21904__fig4",
+         "file": "prov_images/10.1002_cncr.21904__fig4.jpg",
+         "doi": "10.1002/cncr.21904",
+         "fig": "fig4",
+         "pubdate": "2006-5-18",
+         "url": "https://acsjournals.onlinelibrary.wiley.com/cms/asset/267f9fa7-d2f5-4f1b-9237-5f2b8b1ab1a9/mfig004.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_cncr.21904__fig5",
+         "file": "prov_images/10.1002_cncr.21904__fig5.jpg",
+         "doi": "10.1002/cncr.21904",
+         "fig": "fig5",
+         "pubdate": "2006-5-18",
+         "url": "https://acsjournals.onlinelibrary.wiley.com/cms/asset/fb735973-72c6-4cf0-aa06-e0336a9f30ce/mfig005.jpg"
+      },
+      {
+         "id": "id2",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_cncr.21904__fig6",
+         "file": "prov_images/10.1002_cncr.21904__fig6.jpg",
+         "doi": "10.1002/cncr.21904",
+         "fig": "fig6",
+         "pubdate": "2006-5-18",
+         "url": "https://acsjournals.onlinelibrary.wiley.com/cms/asset/e80ec469-4561-4331-8c1e-f0903fa376a4/mfig006.jpg"
+      },
+      {
+         "id": "id3",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_cncr.21904__fig3",
+         "file": "prov_images/10.1002_cncr.21904__fig3.jpg",
+         "doi": "10.1002/cncr.21904",
+         "fig": "fig3",
+         "pubdate": "2006-5-18",
+         "url": "https://acsjournals.onlinelibrary.wiley.com/cms/asset/81782339-de6a-43b6-81eb-7634d684fa04/mfig003.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 0,
+         "target": 2,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 3,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

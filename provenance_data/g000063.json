@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1093_carcin_bgq215__fig3",
+         "file": "prov_images/10.1093_carcin_bgq215__fig3.jpg",
+         "doi": "10.1093/carcin/bgq215",
+         "fig": "fig3",
+         "pubdate": "2010-10-25",
+         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3924040/bin/carcinbgq215f03_ht.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1093_carcin_bgq215__fig5",
+         "file": "prov_images/10.1093_carcin_bgq215__fig5.jpg",
+         "doi": "10.1093/carcin/bgq215",
+         "fig": "fig5",
+         "pubdate": "2010-10-25",
+         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3924040/bin/carcinbgq215f05_ht.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

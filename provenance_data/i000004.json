@@ -1,0 +1,22 @@
+{
+   "probe": "prov_images/10.1002_hep.26505__fig4.jpg",
+   "images": [
+      "prov_images/10.1002_hep.26505__fig1.jpg",
+      "prov_images/10.1002_hep.26505__fig2.jpg",
+      "prov_images/10.1002_hep.26505__fig3.jpg",
+      "prov_images/10.1002_hep.26505__fig4.jpg",
+      "prov_images/10.1002_hep.26505__fig5.jpg",
+      "prov_images/10.1002_hep.26505__fig6.jpg",
+      "prov_images/10.1002_hep.26505__fig7.jpg"
+   ],
+   "dates": [
+      "20130523",
+      "20130523",
+      "20130523",
+      "20130523",
+      "20130523",
+      "20130523",
+      "20130523"
+   ],
+   "output": "o000004.json"
+}

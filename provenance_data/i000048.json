@@ -1,0 +1,22 @@
+{
+   "probe": "prov_images/10.1155_2014_164391__fig2C.jpg",
+   "images": [
+      "prov_images/10.1155_2014_164391__fig1.jpg",
+      "prov_images/10.1155_2014_164391__fig2A.jpg",
+      "prov_images/10.1155_2014_164391__fig2B.jpg",
+      "prov_images/10.1155_2014_164391__fig2C.jpg",
+      "prov_images/10.1155_2014_164391__fig3.jpg",
+      "prov_images/10.1155_2014_164391__fig4.jpg",
+      "prov_images/10.1155_2014_164391__fig5.jpg"
+   ],
+   "dates": [
+      "20141016",
+      "20141016",
+      "20141016",
+      "20141016",
+      "20141016",
+      "20141016",
+      "20141016"
+   ],
+   "output": "o000048.json"
+}

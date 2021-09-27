@@ -1,0 +1,52 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1074_jbc.M110.101055__fig1",
+         "file": "prov_images/10.1074_jbc.M110.101055__fig1.jpg",
+         "doi": "10.1074/jbc.M110.101055",
+         "fig": "fig1",
+         "pubdate": "2010-4-6",
+         "url": "https://www.jbc.org/content/285/23/17869/F1/graphic-1.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1074_jbc.M110.101055__fig2",
+         "file": "prov_images/10.1074_jbc.M110.101055__fig2.jpg",
+         "doi": "10.1074/jbc.M110.101055",
+         "fig": "fig2",
+         "pubdate": "2010-4-6",
+         "url": "https://www.jbc.org/content/285/23/17869/F2.large.jpg"
+      },
+      {
+         "id": "id2",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1074_jbc.M110.101055__fig5",
+         "file": "prov_images/10.1074_jbc.M110.101055__fig5.jpg",
+         "doi": "10.1074/jbc.M110.101055",
+         "fig": "fig5",
+         "pubdate": "2010-4-6",
+         "url": "https://www.jbc.org/content/285/23/17869/F5.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 0,
+         "target": 2,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 1,
+         "target": 2,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

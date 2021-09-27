@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1016_j.brainres.2016.03.049__fig3",
+         "file": "prov_images/10.1016_j.brainres.2016.03.049__fig3.png",
+         "doi": "10.1016/j.brainres.2016.03.049",
+         "fig": "fig3",
+         "pubdate": "2016-3-31",
+         "url": "None"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1016_j.jstrokecerebrovasdis.2016.03.033__fig5",
+         "file": "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig5.jpg",
+         "doi": "10.1016/j.jstrokecerebrovasdis.2016.03.033",
+         "fig": "fig5",
+         "pubdate": "2016-4-30",
+         "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1052305716001865-yjscd2571-fig-0005_lrg.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

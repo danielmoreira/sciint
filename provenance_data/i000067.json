@@ -1,0 +1,18 @@
+{
+   "probe": "prov_images/10.1105_tpc.111.088815__fig2.jpg",
+   "images": [
+      "prov_images/10.1105_tpc.111.088815__fig1.jpg",
+      "prov_images/10.1105_tpc.111.088815__fig2.jpg",
+      "prov_images/10.1105_tpc.111.088815__fig3.jpg",
+      "prov_images/10.1105_tpc.111.088815__fig4.jpg",
+      "prov_images/10.1105_tpc.111.088815__fig5.jpg"
+   ],
+   "dates": [
+      "20110913",
+      "20110913",
+      "20110913",
+      "20110913",
+      "20110913"
+   ],
+   "output": "o000067.json"
+}

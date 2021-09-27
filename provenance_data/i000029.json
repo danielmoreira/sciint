@@ -1,0 +1,38 @@
+{
+   "probe": "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig5.jpg",
+   "images": [
+      "prov_images/10.1371_journal.pone.0054692__fig1.png",
+      "prov_images/10.1371_journal.pone.0054692__fig2.png",
+      "prov_images/10.1371_journal.pone.0054692__fig3.png",
+      "prov_images/10.1371_journal.pone.0054692__fig4.png",
+      "prov_images/10.1371_journal.pone.0054692__fig5.png",
+      "prov_images/10.1371_journal.pone.0054692__fig6.png",
+      "prov_images/10.1371_journal.pone.0054692__fig7.png",
+      "prov_images/10.1371_journal.pone.0054692__fig8.png",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig1.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig2.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig3.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig4.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig5.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig6.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig7.jpg"
+   ],
+   "dates": [
+      "20130124",
+      "20130124",
+      "20130124",
+      "20130124",
+      "20130124",
+      "20130124",
+      "20130124",
+      "20130124",
+      "20121214",
+      "20121214",
+      "20121214",
+      "20121214",
+      "20121214",
+      "20121214",
+      "20121214" 
+   ],
+   "output": "o000029.json"
+}

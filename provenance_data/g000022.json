@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1074_jbc.M110.172767__fig4",
+         "file": "prov_images/10.1074_jbc.M110.172767__fig4.jpg",
+         "doi": "10.1074/jbc.M110.172767",
+         "fig": "fig4",
+         "pubdate": "2010-9-13",
+         "url": "https://www.jbc.org/content/285/46/35418/F4.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1074_jbc.M110.172767__fig7",
+         "file": "prov_images/10.1074_jbc.M110.172767__fig7.jpg",
+         "doi": "10.1074/jbc.M110.172767",
+         "fig": "fig7",
+         "pubdate": "2010-9-13",
+         "url": "https://www.jbc.org/content/285/46/35418/F7.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

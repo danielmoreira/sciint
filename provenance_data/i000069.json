@@ -1,0 +1,34 @@
+{
+   "probe": "prov_images/10.1158_1535-7163.MCT-08-0432__fig2.jpg",
+   "images": [
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig1.jpg",
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig2.jpg",
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig3.jpg",
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig4.jpg",
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig5.jpg",
+      "prov_images/10.1158_1535-7163.MCT-08-0432__fig6.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig1.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig2.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig3.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig4.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig5.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig6.jpg",
+      "prov_images/10.1182_blood-2008-04-151944__fig7.jpg"
+   ],
+   "dates": [
+      "20081001",
+      "20081001",
+      "20081001",
+      "20081001",
+      "20081001",
+      "20081001",
+      "20090226",
+      "20090226",
+      "20090226",
+      "20090226",
+      "20090226",
+      "20090226",
+      "20090226"
+   ],
+   "output": "o000069.json"
+}

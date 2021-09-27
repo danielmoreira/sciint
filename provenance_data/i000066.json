@@ -1,0 +1,22 @@
+{
+   "probe": "prov_images/10.1002_jcb.23150__fig1.jpg",
+   "images": [
+      "prov_images/10.1002_jcb.23150__fig1.jpg",
+      "prov_images/10.1002_jcb.23150__fig2.jpg",
+      "prov_images/10.1002_jcb.23150__fig3.jpg",
+      "prov_images/10.1002_jcb.23150__fig4.jpg",
+      "prov_images/10.1002_jcb.23150__fig5.jpg",
+      "prov_images/10.1002_jcb.23150__fig6.jpg",
+      "prov_images/10.1002_jcb.23150__fig7.jpg"
+   ],
+   "dates": [
+      "20110418",
+      "20110418",
+      "20110418",
+      "20110418",
+      "20110418",
+      "20110418",
+      "20110418"
+   ],
+   "output": "o000066.json"
+}

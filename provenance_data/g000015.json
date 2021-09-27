@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1038_aja.2010.57__fig2",
+         "file": "prov_images/10.1038_aja.2010.57__fig2.jpg",
+         "doi": "10.1038/aja.2010.57",
+         "fig": "fig2",
+         "pubdate": "2010-7-26",
+         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3739319/bin/aja201057f2.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.3892_mmr.2014.2379__fig5",
+         "file": "prov_images/10.3892_mmr.2014.2379__fig5.jpg",
+         "doi": "10.3892/mmr.2014.2379",
+         "fig": "fig5",
+         "pubdate": "2014-7-14",
+         "url": "https://www.spandidos-publications.com/article_images/mmr/10/3/MMR-10-03-1184-g04.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

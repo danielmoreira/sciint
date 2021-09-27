@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1371_journal.pone.0054692__fig4",
+         "file": "prov_images/10.1371_journal.pone.0054692__fig4.png",
+         "doi": "10.1371/journal.pone.0054692",
+         "fig": "fig4",
+         "pubdate": "2013-1-24",
+         "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0054692.g004"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1007_s00125-013-2998-6__fig4",
+         "file": "prov_images/10.1007_s00125-013-2998-6__fig4.png",
+         "doi": "10.1007/s00125-013-2998-6",
+         "fig": "fig4",
+         "pubdate": "2013-08-07",
+         "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00125-013-2998-6/MediaObjects/125_2013_2998_Fig4_HTML.gif"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}
