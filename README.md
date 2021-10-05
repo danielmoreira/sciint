@@ -57,7 +57,7 @@ ID   = 1
 
 **Caption-only Extraction**
 
-If you would want to perform caption-only extraction follow the instructions located at [caption_extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/caption_extraction) directory.
+If you want to extract only the figures caption, follow the instructions located at [caption_extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/caption_extraction).
 
 
 
