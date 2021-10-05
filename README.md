@@ -63,7 +63,7 @@ If you would want to perform caption-only extraction follow the instructions loc
 
 # Evaluation
 
-To evaluate the PDF figure extraction, we annotated the position of figures and caption of 297 PDFs scientific papers and downloaded the original figures and caption from its publisher's official webpage.
+To evaluate the *PDF figure extraction*, we annotated the figures and caption of 297 PDFs scientific papers and downloaded the original figures and caption from its publishers' official website.
 
 The file [pdf-content-extraction-experimental-setup.json](dataset_tasks/pdf-content-extraction/pdf-content-extraction-experimental-setup.json) contains all annotation that we used to evaluate the tool (i.e., Figures URLs, PDF URLs, Figure positions, Caption texts).
 
@@ -75,7 +75,7 @@ To evaluate the figure extraction, we compared the extracted figures with the fi
 
 **Metric**
 
-[Structural similarity index](https://scikit-image.org/docs/0.18.x/api/skimage.metrics.html?highlight=structural%20similarity#structural-similarity) (SSIM).
+[Structural similarity index](https://en.wikipedia.org/wiki/Structural_similarity) (SSIM).
 We use the implementation of the scikit image library [4] during this evaluation.
 
 **Score**
@@ -94,13 +94,13 @@ To evaluate text extraction, we compared the extracted caption with the caption 
 
 **Metrics**
 
-1. BERT-SCORE F1-measure [2]
+1. [BERT-SCORE](https://arxiv.org/abs/1904.09675) F1-measure [2]
 
-   This metric compares the semantic contextual of two sentences using a BERT-based model.
+   This metric compares the semantic contextual of two sentences.
 
    We use the implementation of [2] with the sci-bert-en model ( BERT trained on  Scientific English documents) during the evaluation. 
 
-2. Levenshtein Similarity
+2. [Levenshtein Similarity](https://en.wikipedia.org/wiki/Levenshtein_distance)
 
    This metric calculates the similarity of two strings based on the Levenshtein Distances, which consider each insertion, deletion, substitution alongside two strings.
 
