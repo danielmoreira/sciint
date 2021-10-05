@@ -84,7 +84,7 @@ Average SSIM  = 76 (30)
 
 
 
-You can reproduce our results by running the [PDF Image Extraction](PDF Image Extraction.ipynb) Notebook.
+You can reproduce our results by running the [PDF Image Extraction](PDF%20Image%20Extraction.ipynb) Notebook.
 
 
 
@@ -111,7 +111,7 @@ To evaluate text extraction, we compared the extracted caption with the caption 
 1. Average Bert-Score = 0.86 (0.27)
 2. Average Levenshtein Similarity = 0.82  (0.33)
 
-You can reproduce our results by running the [PDF Caption Extraction](PDF Caption Extraction.ipynb) Notebook.
+You can reproduce our results by running the [PDF Caption Extraction](PDF%20Caption%20Extraction.ipynb) Notebook.
 
 
 
