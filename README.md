@@ -15,7 +15,7 @@ The *PDF content extraction tool* extracts all figures along with their captions
 
 As a special feature, the tool can extract figures from PDFs that suffered a certain level of corruption.
 
-For instance, a figure that was cropped into several pieces due to an PDF error would be fixed:
+For instance, a figure that was cropped into several pieces due to an error in the PDF would be fixed:
 
 ![](.figs/PDF-corrupted-figure.png)
 
