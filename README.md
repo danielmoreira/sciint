@@ -100,13 +100,13 @@ We organize the annotation in a [JSON](dataset_tasks/segmentation/figure-panel-s
 
 ### Evaluation Metric
 
-We use the **[Jaccard](https://en.wikipedia.org/wiki/Jaccard_index)** metric to evaluate the panel segmentation module.
+We use the Intersection over Union  (IoU - **[Jaccard Index](https://en.wikipedia.org/wiki/Jaccard_index)**) metric to evaluate the panel segmentation module.
 
 
 
 ### Results
 
-Average Jaccard = 0.5 (0.2)
+Average IoU = 0.48 (0.19)
 
 You can reproduce our experiment using the [Content Segmentation](Content%20Segmentation.ipynb) notebook.
 
