@@ -42,7 +42,7 @@ $ pip install -r panel_extraction_src/requirements.txt
 
 You can test the installation by running a quick panel segmentation in a scientific figure. 
 
-We add to this repository a sample [figure](sample.png) collected from Zhou et al. [2] distributed under creative common license (CC-BY) for this purpose.
+For testing purposes, we add to this repository a sample [figure](sample.png) collected from Zhou et al. [2] distributed under creative commons license (CC-BY).
 
 To perform the test, run the following instructions inside a python shell:
 
