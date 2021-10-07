@@ -20,7 +20,7 @@ For this task, we used the implementation of Satoshi Tsutsui, and David Crandall
 
 **Installation**
 
-Inside an isolated environment ([virtualenv](https://virtualenv.pypa.io/en/latest/), [conda](https://docs.conda.io/en/latest/)) using python3.6+, download the Compound Figure Separator model with the following code:
+Inside an isolated environment ([virtualenv](https://virtualenv.pypa.io/en/latest/), [conda](https://docs.conda.io/en/latest/)) using python3.6+, download the *Compound Figure Separator* model with the following code:
 
 ```
 # Download and unzip the Compound Figure Separator model
@@ -42,7 +42,7 @@ $ pip install -r panel_extraction_src/requirements.txt
 
 You can test the installation by running a quick panel segmentation in a scientific figure. 
 
-We add to this repository a [figure](sample.png) collected from Zhou et al. distributed under creative common license (CC-BY).
+We add to this repository a sample [figure](sample.png) collected from Zhou et al. distributed under creative common license (CC-BY) for this purpose.
 
 To perform the test, run the following instructions inside a python shell:
 
@@ -52,7 +52,7 @@ In [2]: panel_extraction=PanelExtraction("panel_extraction_src/panel_extraction.
 In [3]: panel_extraction.extract('sample.png')
 ```
 
-The expected output is the bounding-box location for each panel of this [figure](sample.png).
+The expected output is the bounding-box position for each panel of the [figure](sample.png).
 
 ```
 Out[3]: 
@@ -77,7 +77,7 @@ The presented [annotation](dataset_tasks/segmentation/figure-panel-segmentation.
 
 Thus, the evaluation dataset consists of 303 figures along with their panels' bounding-box position. 
 
-We organize the annotation in a [JSON](dataset_tasks/segmentation/figure-panel-segmentation.json) file that indicates for each selected figure (identified with its DOI), the position of the annotated panels as following:
+We organize the annotation in a [JSON](dataset_tasks/segmentation/figure-panel-segmentation.json) file that indicates for each selected figure (identified by its DOI) the position of each annotated panels, as following:
 
 ```
 <PAPER_DOI>: { # Article's Digital Object Identifier
@@ -100,13 +100,13 @@ We organize the annotation in a [JSON](dataset_tasks/segmentation/figure-panel-s
 
 ### Evaluation Metric
 
-We use the **[Jaccard](https://en.wikipedia.org/wiki/Jaccard_index)** metric to evaluate Tsutsui and Crandall [1] model our data.
+We use the **[Jaccard](https://en.wikipedia.org/wiki/Jaccard_index)** metric to evaluate the panel segmentation module.
 
 
 
 ### Results
 
-Average Jaccard: 0.5 (0.2)
+Average Jaccard = 0.5 (0.2)
 
 You can reproduce our experiment using the [Content Segmentation](Content%20Segmentation.ipynb) notebook.
 
