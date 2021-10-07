@@ -110,7 +110,7 @@ Average IoU = 0.48 (0.19)
 
 You can reproduce our experiment using the [Content Segmentation](Content%20Segmentation.ipynb) notebook.
 
-# References
+## References
 
 [1] Tsutsui, Satoshi, and David J. Crandall. "A data driven approach for compound figure separation using convolutional neural networks." *2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)*. Vol. 1. IEEE, 2017.
 
