@@ -42,7 +42,7 @@ $ pip install -r panel_extraction_src/requirements.txt
 
 You can test the installation by running a quick panel segmentation in a scientific figure. 
 
-We add to this repository a sample [figure](sample.png) collected from Zhou et al. distributed under creative common license (CC-BY) for this purpose.
+We add to this repository a sample [figure](sample.png) collected from Zhou et al. [2] distributed under creative common license (CC-BY) for this purpose.
 
 To perform the test, run the following instructions inside a python shell:
 
@@ -113,3 +113,5 @@ You can reproduce our experiment using the [Content Segmentation](Content%20Segm
 # References
 
 [1] Tsutsui, Satoshi, and David J. Crandall. "A data driven approach for compound figure separation using convolutional neural networks." *2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)*. Vol. 1. IEEE, 2017.
+
+[2] Zhou, Y., Zhang, J., Wu, H., Hogan, M. V., & Wang, J. H.-C. (2015). The differential effects of leukocyte-containing and pure platelet-rich plasma (PRP) on tendon stem/progenitor cells - implications of PRP application for the clinical treatment of tendon injuries. Stem Cell Research & Therapy, 6(1). https://doi.org/10.1186/s13287-015-0172-4
