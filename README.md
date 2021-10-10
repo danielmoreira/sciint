@@ -76,5 +76,5 @@ data:
 1. Execute the test (described above) and generate all the 70 output provenance graphs.
 2. Run (in a terminal, with the provenance container properly started):
    ```
-   docker exec sci-provenance /provenance/02_eval_allgraphs.sh
+   docker exec sci-provenance /provenance/02_eval_all_graphs.sh
    ```
