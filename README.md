@@ -56,7 +56,12 @@ In the case of image panel *"10.1002_cncr.21731/figures-panels/fig1_000.png"* as
 the respective rank will be stored in *"10.1002_cncr.21731/figures-panels/fig1_000.png.txt"* and its content will look
 like: 
    ```
-   TODO
+   rank_images/10.1002_cncr.21731/figures-panels/fig1_000.png,1.0000000000
+   rank_images/10.1002_cncr.21731/figures-panels/fig4_001.png,0.0105644072
+   rank_images/10.1124_mol.107.041350/figures-panels/fig2_000.png,0.0050476437
+   rank_images/10.1002_cncr.21731/figures-panels/fig2_000.png,0.0040741775
+   rank_images/10.1158_0008-5472.CAN-04-4604/figures-panels/fig4_004.png,0.0027281176
+   # (...)
    ```
 
 ### Metrics
