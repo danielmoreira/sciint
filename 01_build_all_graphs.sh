@@ -3,7 +3,7 @@
 bgn=$(date);
 cd /provenance/io;
 
-for i in $(ls -d -1 i*.json); do
+for i in $(ls -d -1 *.json); do
   echo 'python3.6 -u ../build_graph.py '$i'';
   python3.6 -u ../build_graph.py $i;
 done;
