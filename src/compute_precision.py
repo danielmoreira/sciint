@@ -5,13 +5,13 @@ n = 10  # 1, 5, 10
 precisions = []
 
 gt_dict = {}
-with open('../retrievel-ranks.json') as f:
+with open('../ranking_data/gt-ranks.json') as f:
     data = json.load(f)
     for item in data:
         gt_dict[item] = data[item]['rank'][:]
 
 sl_dict = {}
-with open('../rank_list.txt') as f:
+with open('../ranking_data/rank_list.txt') as f:
     for file_path in f:
         id = file_path.strip().replace('./dataset/', '').replace('.txt', '')
         sl_dict[id] = []
