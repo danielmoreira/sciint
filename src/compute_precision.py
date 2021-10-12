@@ -15,7 +15,7 @@ for n in [1, 5, 10]:
         for file_path in f:
             id = file_path.strip().replace('rank_images/', '').replace('.txt', '')
             sl_dict[id] = []
-            print('Rank ID:', id)
+            # print('Rank ID:', id)
 
             with open(file_path.strip()) as rf:
                 count = 0
@@ -30,7 +30,7 @@ for n in [1, 5, 10]:
                                 break
 
     for key in sl_dict.keys():
-        print(key)
+        # print(key)
 
         relevant_count = 0.0
         for retrieved_id in sl_dict[key]:
@@ -41,7 +41,7 @@ for n in [1, 5, 10]:
 
     print('***********************************')
     print('P@' + str(n))
-    print('P list:', precisions)
+    # print('P list:', precisions)
     print('P  max:', numpy.max(precisions))
     print('P  min:', numpy.min(precisions))
     print('P mean:', numpy.mean(precisions))
