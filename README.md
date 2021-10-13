@@ -17,7 +17,7 @@ After this, we expanded the dataset to include others articles that were publish
 
 At this point, the dataset had **656** papers of which **545** were retracted/corrected -- we organized the retraction/correction reasons by categories in this [Table](#retraction-reasons).
 
-In addition to these data, we also included **332** papers random selected from the [PMC Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/), totalizing 988 (656 + 332) articles.
+In addition to these data, we also included **332** papers with no retraction/correction selected from the [PMC Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/) to test possibles false alarms from the system, totalizing 988 (656 + 332) articles.
 
 *Disclaimer: Inclusion in the dataset does not necessarily signify that an article is the subject of any research misconduct practice, allegation, or proceeding.*
 
@@ -61,7 +61,7 @@ The [Spreadsheet](scientific-integrity-dataset.csv)  is designed to be used by n
 | Retracted/Corrected            | ( Is the article Retracted/Corrected? ) Yes / No             |
 | Retraction/Correction DOI      | Retraction/Correction DOI (when applicable)                  |
 | Retraction/Correction Reason   | List of Retraction/Correction Reasons (when applicable)<br />Check [Table of  Retraction/Correction Reasons](retraction-reasons) |
-| Officially Unchallenged        | ( Does the article included due to any association with a R/C article ?) Yes / No |
+| False Alarm Test               | ( Was the article selected to test false alarms?) Yes / No |
 | Content Extraction Annotation  | ( Does the article have Content Extraction Annotation ? ) Yes / No |
 | Image Ranking Annotation       | ( Does the article have Image Ranking Annotation ? ) Yes / No |
 | Panel Segmentation Annotation  | ( Does the article have Panel Segmentation Annotation ? ) Yes / No |
