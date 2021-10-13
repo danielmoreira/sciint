@@ -1,5 +1,5 @@
 # Scientific Integrity Dataset
-### Version 8, last revision time: July 31, 2021
+### Version 8, last revision time: July 21, 2021
 
 This repository presents the Scientific Integrity Dataset designed to benchmark semi-automated scientific integrity analytics.
 
@@ -97,7 +97,7 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
     },
     'article_url': < content > ,                     # URL of the online article's version if available; otherwise, article's PubMed Central URL
     'authors': < list - of -authors > ,              # Name of the authors with their affiliation
-    'cited_by': < content > ,                        # Number of citation received as of July 31, 2021
+    'cited_by': < content > ,                        # Number of citation received as of July 21, 2021
     'copyright': < content > ,                       # Aticle's copyright
     'doi': < content > ,                             # Digital Object Identifier
 
@@ -116,7 +116,7 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
     'supplementary_material_links': < list - of -links > ,  # Links to all article's supplementary material
     'title': < content > ,                          # Article's title
 
-    # Retracted/Corrected articles (as of July 31, 2021) will have the following field
+    # Retracted/Corrected articles (as of July 21, 2021) will have the following field
     'retraction_correction_material': {             # All retraction/correction material found
         'retraction_correction_doi': < content > ,  # Retraction/Correction DOI
         'retraction_correction_figures': < list - of -dict > , # All new figures related to the Retraction/Correction Notice
