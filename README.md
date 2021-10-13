@@ -13,7 +13,7 @@ The dataset contains detailed information of **988** scientific papers concentra
 
 During the collection of the articles, we started selecting articles that had been retracted due to image problems.
 
-After this, we expanded the dataset to include other that were published by the same authors from the initial set.
+After this, we expanded the dataset to include others articles that were published by the same authors from the initial set.
 
 At this point, the dataset had **656** papers of which **545** were retracted/corrected -- we organized the retraction/correction reasons by categories in this [Table](#retraction-reasons).
 
