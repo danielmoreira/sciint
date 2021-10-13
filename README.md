@@ -29,11 +29,11 @@ The dataset contain annotations for five task that assist the process of a scien
 
 | Task                                 | Annotation                                                   | #Articles | #Figures |
 | :----------------------------------- | :----------------------------------------------------------- | :-------- | :------- |
-| PDF Content Extraction               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
-| Scientific Figure Panel Segmentation | **Position of each panel of a multi-panel scientific figure**. | 48        | 303      |
-| Image Ranking                        | **Content Image-Base Retrieval annotation for scientific images** -- only single-panel figures were included in the annotation. | 48        | 2843     |
-| Copy-Move Detection                  | **Scientific Image Copy-Move Forgery Detection annotation at pixel-wise level** based on retraction notices' description. | 126       | 182      |
-| Provenance Analysis                  | **Provenance graph annotations of scientific figures with reused and manipulated regions.** | 85        | 591      |
+| [PDF Content Extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/pdf-content-extraction-data)               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
+| [Scientific Figure Panel Segmentation](https://github.com/danielmoreira/sciint/tree/content-segmentation/panel-segmentation-data) | **Position of each panel of a multi-panel scientific figure**. | 48        | 303      |
+| [Image Ranking](https://github.com/danielmoreira/sciint/tree/content-ranking/ranking_data)                        | **Content Image-Base Retrieval annotation for scientific images** -- only single-panel figures were included in the annotation. | 48        | 2843     |
+| [Copy-Move Detection](https://github.com/danielmoreira/sciint/tree/copy-move-detection/copy-move-data)                  | **Scientific Image Copy-Move Forgery Detection annotation at pixel-wise level** based on retraction notices' description. | 126       | 182      |
+| [Provenance Analysis](https://github.com/danielmoreira/sciint/tree/provenance-analysis/provenance_data)                  | **Provenance graph annotations of scientific figures with reused and manipulated regions.** | 85        | 591      |
 
 
 
