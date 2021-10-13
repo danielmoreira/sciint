@@ -62,8 +62,8 @@ The [Spreadsheet](scientific-integrity-dataset.csv)  is designed to be used by n
 | Retraction/Correction Reason   | List of Retraction/Correction Reasons (when applicable)<br />Check [Table of  Retraction/Correction Reasons](retraction-reasons) |
 | Officially Unchallenged        | ( Does the article included due to any association with a R/C article ?) Yes / No |
 | Content Extraction Annotation  | ( Does the article have Content Extraction Annotation ? ) Yes / No |
-| Image Ranking Annotation       | ( Does the article have Content Extraction Annotation ? ) Yes / No |
-| Panel Segmentation Annotation  | ( Does the article have Image Ranking Annotation ? ) Yes / No |
+| Image Ranking Annotation       | ( Does the article have Image Ranking Annotation ? ) Yes / No |
+| Panel Segmentation Annotation  | ( Does the article have Panel Segmentation Annotation ? ) Yes / No |
 | Copy-Move Detection Annotation | ( Does the article have Copy-Move Annotation ? ) Yes / No    |
 | Provenance Analysis Annotation | ( Does the article have Provenance Analysis Annotation ? ) Yes / No |
 
