@@ -103,7 +103,7 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
     'figures': {				     # Figure from the Article found on trustworthy sources (Publisher or PMC)
         'fig1': {				     # Figure element
             'fig-caption': < content > ,             # Figure caption collected from the trustworthy source
-            'fig-label': < content > ,				 # Figure label (e.g. Fig. 1)
+            'fig-label': < content > ,		     # Figure label (e.g. Fig. 1)
             'fig-link': < content >                  # Figure's URL from the trustworthy source
         },
     },
