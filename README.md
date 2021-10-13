@@ -1,57 +1,155 @@
 # Scientific Integrity Dataset
-### Version 8, last edit time: Jan 30, 2021
+### Version 8, last revision time: July 31, 2021
 
-#### Compared with dataset version 7, we reorganize the dataset and collect more papers.
+This repository presents the Scientific Integrity Dataset designed to benchmark semi-automated scientific integrity analytics.
 
-Dataset contains detail information of 988 papers and data_annotation.xls.
-``data_annotation.xls`` contains basic information of each collected paper.  
+*All collected data are public available and were collected from scientific publishers or trustworthy repositories (e.g., [PubMed](https://pubmed.ncbi.nlm.nih.gov/)).*
 
-Columns in the ``data_annotation.xls``:   
-       Directory: the directory name of the collected paper  
-       DOI	  
-       Title: the full name of the collected paper   
-       Article Link	  
-       Authors	  
-       Cited By: the number of the cited papers	  
-       Copyright	  
-       Publication Source  
-       Published Date  
-       Received Date	  
-       Accepted Date	  
-       Publisher	  
-       Has Retraction/Correction	  
-       Reason for Retreaction/Correction:  
-              Abbreviations:  
-                     FL  Falsification of Image  
-                     FB  Fabrification of Image  
-                     PL  Plagriarism of Image  
-       Retraction/Correction Notice Available	  
-       Retraction/Correction DOI	  
-       Source Image Available	  
-       Supplmentary Material Available   
 
-For each collected paper:
-```bash
 
-Directory Name (named as doi by replacing '/' with '_')
-├── article
-│   └── paper.pdf
-├── figures 
-│   ├── collected images: named in figx.xxx format
-│   └── captions: named same as the corresponding image in txt format, like figx.txt
-├── figures-gt (if available)
-│   ├── cmfd-map 
-│   │   └── ground-truth images used for copy-move detection: named same as the corresponfing query image
-│   └── panels 
-│       └── ground-truth images used for panel extraction: named same as the corresponfing query image
-├── figures-panels (if available)
-│   └── panel images: for image figx.xxx, its subpanel images are named in figx_xxx.xxx format
-├── infos 
-│   └── info.json (metadata of the collected paper)
-├── retraction-correction
-│   ├── notice.pdf
-│   └── notice.txt
-└── supplementary (if available)
-    └── supplemental material
+## Dataset
 
+The dataset contains detailed information of **988** scientific papers concentrated in the Biomedical area.
+
+During the collection of the articles, we started selecting articles that had been retracted due to image problems.
+
+After this, we expanded the dataset to include other that were published by the same authors from the initial set.
+
+At this point, the dataset had **656** papers of which **545** were retracted/corrected -- we organized the retraction/correction reasons by categories in this [Table](#retraction-reasons).
+
+In addition to these data, we also included **332** papers random selected from the [PMC Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/), totalizing 988 (656 + 332) articles.
+
+*Disclaimer: Inclusion in the dataset does not necessarily signify that an article is the subject of any research misconduct practice, allegation, or proceeding.*
+
+
+
+### Dataset Task Modalities
+
+The dataset contain annotations for five task that assist the process of a scientific integrity article analysis.
+
+| Task                                 | Annotation                                                   | #Articles | #Figures |
+| :----------------------------------- | :----------------------------------------------------------- | :-------- | :------- |
+| PDF Content Extraction               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
+| Scientific Figure Panel Segmentation | **Position of each panel of a multi-panel scientific figure** | 48        | 303      |
+| Image Ranking                        | **Content Image-Base Retrieval annotation for scientific images** -- only single-panel figures were included in the annotation. | 48        | 2843     |
+| Copy-Move Detection                  | **Scientific Image Copy-Move Forgery Detection annotation at pixel-wise level** based on retraction notices' description. | 126       | 182      |
+| Provenance Analysis                  | **Provenance graph annotations of scientific figures with reused and manipulated regions.** | 85        | 591      |
+
+
+
+The dataset is released in formats: 
+
+- [Document-based](#json-file)  -- JSON
+- [Spreadsheet](#csv-file) -- CSV
+
+
+
+## <a name="csv-file">SPREADSHEET</a>
+
+The [Spreadsheet](scientific-integrity-dataset.csv)  is designed to be used by non-experts in computer science and as a quick reference to the *Scientific Integrity Dataset* 
+
+<details>
+<summary>Spreadsheet Structure - click to expand</summary><p>
+
+
+| Spreadsheet Column             | Explanation                                                  |
+| :----------------------------- | :----------------------------------------------------------- |
+| DOI                            | Digital Object Identifier or Pubmed ID (if DOI does not exist) |
+| Link                           | Article URL                                                  |
+| Creative Commons               | ( Is the article licensed under Creative Commons ? ) Yes / No |
+| Retracted/Corrected            | ( Is the article Retracted/Corrected? ) Yes / No             |
+| Retraction/Correction DOI      | Retraction/Correction DOI (when applicable)                  |
+| Retraction/Correction Reason   | List of Retraction/Correction Reasons (when applicable)<br />Check [Table of  Retraction/Correction Reasons](retraction-reasons) |
+| Officially Unchallenged        | ( Does the article included due to any association with a R/C article ?) Yes / No |
+| Content Extraction Annotation  | ( Does the article have Content Extraction Annotation ? ) Yes / No |
+| Image Ranking Annotation       | ( Does the article have Content Extraction Annotation ? ) Yes / No |
+| Panel Segmentation Annotation  | ( Does the article have Image Ranking Annotation ? ) Yes / No |
+| Copy-Move Detection Annotation | ( Does the article have Copy-Move Annotation ? ) Yes / No    |
+| Provenance Analysis Annotation | ( Does the article have Provenance Analysis Annotation ? ) Yes / No |
+
+</p>
+</details>
+
+## <a name="json-file">Document-Based Annotation</a>
+
+The [Document-based annotation](scientific-integrity-dataset.json) is a JSON-based document with detailed information of each article included in the Scientific Integrity Dataset.
+
+If you are not a computer science expert, we recommend using a [JSON viewer](http://jsonviewer.stack.hu/) to analyze these annotations.
+
+<details>
+<summary>Article JSON Structure - click to expand</summary><p>
+
+```json
+														                 # Field Explanation #
+                                                     ##########################################################
+< article_id >: {                                    # Article ID is its DOI or PMID (case that DOI does not exist)
+    'abstract': < content > ,                        # 
+    'access_type': < content > ,					 # FREE or PURSHED
+    'article_history': {							 # History of Article from submission to acception
+        'accepted_date': < yyyy - mm - dd > ,        # Year - Month - day
+        'published_date': < yyyy - mm - dd > ,       # Year - Month - day
+        'received_date': < yyyy - mm - dd >          # Year - Month - day
+    },
+    'article_url': < content > ,                     # Article Official URL (Publisher website), if available,  
+                                                     # otherwise PMC url
+    'authors': < list - of -authors > ,              # Name of the authors with their affiliation
+    'cited_by': < content > ,                        # Number of citation received as of July 31, 2021
+    'copyright': < content > ,                       # Type of copyright of the article
+    'doi': < content > ,                             # Digital Object Identifier
+
+    'figures': {									 # Figure from the Article found on trustworthy sources (Publisher or PMC)
+        'fig1': {									 # Figure element
+            'fig-caption': < content > ,             # Figure caption collected from the trustworthy source
+            'fig-label': < content > ,				 # Figure label (e.g. Fig. 1)
+            'fig-link': < content >                  # Figure's URL from the trustworthy source
+        },
+    },
+
+    'keywords': < list - of -keywords > ,           # List of Article keywords
+    'pdf_link': < content > ,                       # Article PDF URL
+    'publication_source': < content > ,             # Name of the article's Journal
+    'publisher': < content > ,                      # Name of the Publisher
+    'supplementary_material_links': < list - of -links > ,  # Links to all supplementary material 
+															# associated with the Article
+    'title': < content > ,                          # Article's title
+
+													# Only Retracted/Corrected article will have the following field
+    'retraction_correction_material': {             # All retraction/correction material found associated with the Article
+        'retraction_correction_doi': < content > ,  # Retraction/Correction DOI
+        'retraction_correction_figures': < list - of -dict > , # All new figures presented in the Retraction/Correction Notice
+        'retraction_correction_notice_pdf_link': < content > , # Retraction/Correction PDF URL
+        'retraction_correction_notice_txt': < content > ,      # Full Text of the Retraction/Correction
+        'retraction_correction_reason': < list - of -reasons > # List of reasons to retract/correct the article
+    },
+}
 ```
+
+</p>
+</details>
+
+## <a name="retraction-reasons"> Table of Retraction/Correction Reasons</a>
+
+| Retraction/Correction Reason      | Explanation                                                  |
+| :-------------------------------- | :----------------------------------------------------------- |
+| Article Duplication               | Article contains near-duplicated images, text, and data from previous publications. |
+| Text Duplication                  | Article contains near-duplicated text from previous publications. |
+| Data Duplication                  | Article contains near-duplicated data from previous publications. |
+| Image Duplication Across Articles | Article contains near-duplicated images from previous publications. |
+| Image Duplication                 | Article contains a duplicated image within itself (e.g., a western-blot panel appears duplicated in the same figure or in two figure from the *same* article). |
+| Replaced Duplicated Video         | Article contains a duplicated video within itself.           |
+| Data Error                        | Data presented in the article contains errors. (e.g., calculation error, data contamination). |
+| Text Error                        | Article contains text typos that were corrected with a *Correction Notice* |
+| Fixed Text                        | There were some typos along the article text that were corrected with a *Correction Notice*. |
+| Graph Error                       | Plots/chars present an error (e.g., use of an old version of the dataset to plot the data). |
+| Image Error                       | The image contains a presentation error (e.g., an image was mislabeled). |
+| Fixed Image Scale Bars            | Images were missing scale bars and were corrected with a *Correction Notice.* |
+| Image Falsification/Fabrication   | Image contains evidences of Falsification or Fabrication.    |
+| Image Manipulation                | Image contains evidences of manipulation (e.g., the background of a microscopy photo was erased). |
+| Invalid References                | Article contains invalid references.                         |
+| No Information                    | The *Retraction/Correction Notice* does not present any information regarding the retraction/correction. |
+| Questionable Data                 | The authors were unable to prove the integrity of some data from the article |
+| Questionable Image                | The authors were unable to prove the integrity of at least an image from the article. |
+| Replaced Wrong Image              | An Image was mistakenly replaced during the manuscript preparation. |
+| Unreproducible Experiments        | Article contains unreproducible experiments.                 |
+| Fixed Author Information          |                                                              |
+| Wrong Author Information          |                                                              |
