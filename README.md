@@ -19,7 +19,7 @@ For instance, a figure that was cropped into several pieces due to an error in t
 
 ![](.figs/PDF-corrupted-figure.png)
 
-The above [figure](https://www.flickr.com/photos/146824358@N03/34062338520) is licensed under Public Domain 
+The [figure](https://www.flickr.com/photos/146824358@N03/34062338520) above is licensed under Public Domain 
 
 
 
