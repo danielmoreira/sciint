@@ -80,7 +80,7 @@ We use the implementation of the scikit image library [4] during this evaluation
 
 **Score**
 
-Average SSIM  = 76 (30)
+Average SSIM  = 77 (29)
 
 
 
@@ -108,8 +108,8 @@ To evaluate text extraction, we compared the extracted caption with the caption 
 
 **Score**
 
-1. Average Bert-Score = 0.86 (0.27)
-2. Average Levenshtein Similarity = 0.82  (0.33)
+1. Average Bert-Score =  0.88 (0.24)
+2. Average Levenshtein Similarity = 0.84 (0.31)
 
 You can reproduce our results by running the [PDF Caption Extraction](PDF%20Caption%20Extraction.ipynb) Notebook.
 
