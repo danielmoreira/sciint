@@ -79,26 +79,29 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
 <details>
 <summary>Article JSON Structure - click to expand</summary><p>
 
-```json
-														                 # Field Explanation #
-                                                     ##########################################################
+```python
+						     ############################################################################################
+						     ###                                 Field Explanation                                    ###
+                                                     ############################################################################################
+	
+	
 < article_id >: {                                    # Article ID is its DOI or PMID (case that DOI does not exist)
-    'abstract': < content > ,                        # 
-    'access_type': < content > ,					 # FREE or PURSHED
-    'article_history': {							 # History of Article from submission to acception
-        'accepted_date': < yyyy - mm - dd > ,        # Year - Month - day
-        'published_date': < yyyy - mm - dd > ,       # Year - Month - day
-        'received_date': < yyyy - mm - dd >          # Year - Month - day
+    'abstract': < content > ,                        # Article's Abstract
+    'access_type': < content > ,	             # FREE or PURSHED
+	
+    'article_history': {			     # History of Article from submission to acception
+        'accepted_date': < yyyy - mm - dd > ,        
+        'published_date': < yyyy - mm - dd > ,       
+        'received_date': < yyyy - mm - dd >          
     },
-    'article_url': < content > ,                     # Article Official URL (Publisher website), if available,  
-                                                     # otherwise PMC url
+    'article_url': < content > ,                     # URL of the online article's version if available; otherwise, article's PubMed Central URL
     'authors': < list - of -authors > ,              # Name of the authors with their affiliation
     'cited_by': < content > ,                        # Number of citation received as of July 31, 2021
-    'copyright': < content > ,                       # Type of copyright of the article
+    'copyright': < content > ,                       # Aticle's copyright
     'doi': < content > ,                             # Digital Object Identifier
 
-    'figures': {									 # Figure from the Article found on trustworthy sources (Publisher or PMC)
-        'fig1': {									 # Figure element
+    'figures': {				     # Figure from the Article found on trustworthy sources (Publisher or PMC)
+        'fig1': {				     # Figure element
             'fig-caption': < content > ,             # Figure caption collected from the trustworthy source
             'fig-label': < content > ,				 # Figure label (e.g. Fig. 1)
             'fig-link': < content >                  # Figure's URL from the trustworthy source
@@ -106,17 +109,16 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
     },
 
     'keywords': < list - of -keywords > ,           # List of Article keywords
-    'pdf_link': < content > ,                       # Article PDF URL
+    'pdf_link': < content > ,                       # Article's PDF URL
     'publication_source': < content > ,             # Name of the article's Journal
-    'publisher': < content > ,                      # Name of the Publisher
-    'supplementary_material_links': < list - of -links > ,  # Links to all supplementary material 
-															# associated with the Article
+    'publisher': < content > ,                      # Name of the article's Publisher
+    'supplementary_material_links': < list - of -links > ,  # Links to all article's supplementary material
     'title': < content > ,                          # Article's title
 
-													# Only Retracted/Corrected article will have the following field
-    'retraction_correction_material': {             # All retraction/correction material found associated with the Article
+    # Retracted/Corrected articles (as of July 31, 2021) will have the following field
+    'retraction_correction_material': {             # All retraction/correction material found
         'retraction_correction_doi': < content > ,  # Retraction/Correction DOI
-        'retraction_correction_figures': < list - of -dict > , # All new figures presented in the Retraction/Correction Notice
+        'retraction_correction_figures': < list - of -dict > , # All new figures related to the Retraction/Correction Notice
         'retraction_correction_notice_pdf_link': < content > , # Retraction/Correction PDF URL
         'retraction_correction_notice_txt': < content > ,      # Full Text of the Retraction/Correction
         'retraction_correction_reason': < list - of -reasons > # List of reasons to retract/correct the article
