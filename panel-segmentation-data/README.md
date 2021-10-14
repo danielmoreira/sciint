@@ -55,4 +55,4 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
 The zip files located at this repository is a copy of the data used during our experiments.
 
 -  [gt.zip](gt.zip) contains the annotated binary-masks of each figure used on the *Content Extraction* experiment. This file is *open access*.
-- [figures.zip](figures.zip) contains all figures used during the *Content Extraction* experiment. If you want to use these data for academic purposes, please contact [Daniel Moreira](https://github.com/danielmoreira/sciint/blob/provenance-analysis/daniel.moreira@nd.edu).
+- [figures.zip](figures.zip) contains all figures used during the *Content Extraction* experiment. If you want to use these data for academic purposes, please contact [Daniel Moreira](daniel.moreira@nd.edu).
