@@ -1,5 +1,5 @@
 # Scientific Integrity Dataset
-### Version 8, last revision time: July 31, 2021
+### Version 8, last revision time: July 21, 2021
 
 This repository presents the Scientific Integrity Dataset designed to benchmark semi-automated scientific integrity analytics.
 
@@ -13,11 +13,11 @@ The dataset contains detailed information of **988** scientific papers concentra
 
 During the collection of the articles, we started selecting articles that had been retracted due to image problems.
 
-After this, we expanded the dataset to include other that were published by the same authors from the initial set.
+After this, we expanded the dataset to include others articles that were published by the same authors from the initial set.
 
 At this point, the dataset had **656** papers of which **545** were retracted/corrected -- we organized the retraction/correction reasons by categories in this [Table](#retraction-reasons).
 
-In addition to these data, we also included **332** papers random selected from the [PMC Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/), totalizing 988 (656 + 332) articles.
+In addition to these data, we also included **332** papers with no retraction/correction selected from the [PMC Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/) to test possibles false alarms from the system, totalizing 988 (656 + 332) articles.
 
 *Disclaimer: Inclusion in the dataset does not necessarily signify that an article is the subject of any research misconduct practice, allegation, or proceeding.*
 
@@ -25,22 +25,23 @@ In addition to these data, we also included **332** papers random selected from 
 
 ### Dataset Task Modalities
 
-The dataset contain annotations for five task that assist the process of a scientific integrity article analysis.
+The dataset contain annotations for five task that assist the process of a scientific integrity document analysis.
 
 | Task                                 | Annotation                                                   | #Articles | #Figures |
 | :----------------------------------- | :----------------------------------------------------------- | :-------- | :------- |
-| PDF Content Extraction               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
-| Scientific Figure Panel Segmentation | **Position of each panel of a multi-panel scientific figure** | 48        | 303      |
-| Image Ranking                        | **Content Image-Base Retrieval annotation for scientific images** -- only single-panel figures were included in the annotation. | 48        | 2843     |
-| Copy-Move Detection                  | **Scientific Image Copy-Move Forgery Detection annotation at pixel-wise level** based on retraction notices' description. | 126       | 182      |
-| Provenance Analysis                  | **Provenance graph annotations of scientific figures with reused and manipulated regions.** | 85        | 591      |
+| [PDF Content Extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/pdf-content-extraction-data)               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
+| [Scientific Figure Panel Segmentation](https://github.com/danielmoreira/sciint/tree/content-segmentation/panel-segmentation-data) | **Position of each panel of a multi-panel scientific figure**. | 48        | 303      |
+| [Image Ranking](https://github.com/danielmoreira/sciint/tree/content-ranking/ranking_data)                        | **Content Image-Base Retrieval annotation for scientific images** -- only single-panel figures were included in the annotation. | 48        | 2843     |
+| [Copy-Move Detection](https://github.com/danielmoreira/sciint/tree/copy-move-detection/copy-move-data)                  | **Scientific Image Copy-Move Forgery Detection annotation at pixel-wise level** based on retraction notices' description. | 126       | 182      |
+| [Provenance Analysis](https://github.com/danielmoreira/sciint/tree/provenance-analysis/provenance_data)                  | **Provenance graph annotations of scientific figures with reused and manipulated regions.** | 85        | 591      |
 
 
 
-The dataset is released in formats: 
+The dataset is released in two formats: 
 
-- [Document-based](#json-file)  -- JSON
 - [Spreadsheet](#csv-file) -- CSV
+- [Document-based](#json-file)  -- JSON
+
 
 
 
@@ -60,10 +61,10 @@ The [Spreadsheet](scientific-integrity-dataset.csv)  is designed to be used by n
 | Retracted/Corrected            | ( Is the article Retracted/Corrected? ) Yes / No             |
 | Retraction/Correction DOI      | Retraction/Correction DOI (when applicable)                  |
 | Retraction/Correction Reason   | List of Retraction/Correction Reasons (when applicable)<br />Check [Table of  Retraction/Correction Reasons](retraction-reasons) |
-| Officially Unchallenged        | ( Does the article included due to any association with a R/C article ?) Yes / No |
+| False Alarm Test               | ( Was the article selected to test false alarms?) Yes / No |
 | Content Extraction Annotation  | ( Does the article have Content Extraction Annotation ? ) Yes / No |
-| Image Ranking Annotation       | ( Does the article have Content Extraction Annotation ? ) Yes / No |
-| Panel Segmentation Annotation  | ( Does the article have Image Ranking Annotation ? ) Yes / No |
+| Image Ranking Annotation       | ( Does the article have Image Ranking Annotation ? ) Yes / No |
+| Panel Segmentation Annotation  | ( Does the article have Panel Segmentation Annotation ? ) Yes / No |
 | Copy-Move Detection Annotation | ( Does the article have Copy-Move Annotation ? ) Yes / No    |
 | Provenance Analysis Annotation | ( Does the article have Provenance Analysis Annotation ? ) Yes / No |
 
@@ -79,44 +80,46 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
 <details>
 <summary>Article JSON Structure - click to expand</summary><p>
 
-```json
-														                 # Field Explanation #
-                                                     ##########################################################
+```python
+						     ############################################################################################
+						     ###                                 Field Explanation                                    ###
+                                                     ############################################################################################
+	
+	
 < article_id >: {                                    # Article ID is its DOI or PMID (case that DOI does not exist)
-    'abstract': < content > ,                        # 
-    'access_type': < content > ,					 # FREE or PURSHED
-    'article_history': {							 # History of Article from submission to acception
-        'accepted_date': < yyyy - mm - dd > ,        # Year - Month - day
-        'published_date': < yyyy - mm - dd > ,       # Year - Month - day
-        'received_date': < yyyy - mm - dd >          # Year - Month - day
+    'abstract': < content > ,                        # Article's Abstract
+    'access_type': < content > ,	             # FREE or PURSHED
+	
+    'article_history': {			     # History of Article from submission to acception
+        'accepted_date': < yyyy - mm - dd > ,        
+        'published_date': < yyyy - mm - dd > ,       
+        'received_date': < yyyy - mm - dd >          
     },
-    'article_url': < content > ,                     # Article Official URL (Publisher website), if available,  
-                                                     # otherwise PMC url
+    'article_url': < content > ,                     # URL of the online article's version if available; otherwise, article's PubMed Central URL
     'authors': < list - of -authors > ,              # Name of the authors with their affiliation
-    'cited_by': < content > ,                        # Number of citation received as of July 31, 2021
-    'copyright': < content > ,                       # Type of copyright of the article
+    'cited_by': < content > ,                        # Number of citation received as of July 21, 2021
+    'copyright': < content > ,                       # Aticle's copyright
     'doi': < content > ,                             # Digital Object Identifier
 
-    'figures': {									 # Figure from the Article found on trustworthy sources (Publisher or PMC)
-        'fig1': {									 # Figure element
+    'figures': {				     # Figure from the Article found on trustworthy sources (Publisher or PMC)
+        'fig1': {				     # Figure element
             'fig-caption': < content > ,             # Figure caption collected from the trustworthy source
-            'fig-label': < content > ,				 # Figure label (e.g. Fig. 1)
+            'fig-label': < content > ,		     # Figure label (e.g. Fig. 1)
             'fig-link': < content >                  # Figure's URL from the trustworthy source
         },
     },
 
     'keywords': < list - of -keywords > ,           # List of Article keywords
-    'pdf_link': < content > ,                       # Article PDF URL
+    'pdf_link': < content > ,                       # Article's PDF URL
     'publication_source': < content > ,             # Name of the article's Journal
-    'publisher': < content > ,                      # Name of the Publisher
-    'supplementary_material_links': < list - of -links > ,  # Links to all supplementary material 
-															# associated with the Article
+    'publisher': < content > ,                      # Name of the article's Publisher
+    'supplementary_material_links': < list - of -links > ,  # Links to all article's supplementary material
     'title': < content > ,                          # Article's title
 
-													# Only Retracted/Corrected article will have the following field
-    'retraction_correction_material': {             # All retraction/correction material found associated with the Article
+    # Retracted/Corrected articles (as of July 21, 2021) will have the following field
+    'retraction_correction_material': {             # All retraction/correction material found
         'retraction_correction_doi': < content > ,  # Retraction/Correction DOI
-        'retraction_correction_figures': < list - of -dict > , # All new figures presented in the Retraction/Correction Notice
+        'retraction_correction_figures': < list - of -dict > , # All new figures related to the Retraction/Correction Notice
         'retraction_correction_notice_pdf_link': < content > , # Retraction/Correction PDF URL
         'retraction_correction_notice_txt': < content > ,      # Full Text of the Retraction/Correction
         'retraction_correction_reason': < list - of -reasons > # List of reasons to retract/correct the article
