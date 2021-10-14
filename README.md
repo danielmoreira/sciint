@@ -27,6 +27,7 @@ In addition to these data, we also included **332** papers with no retraction/co
 
 The dataset contain annotations for five task that assist the process of a scientific integrity document analysis.
 
+
 | Task                                 | Annotation                                                   | #Articles | #Figures |
 | :----------------------------------- | :----------------------------------------------------------- | :-------- | :------- |
 | [PDF Content Extraction](https://github.com/danielmoreira/sciint/tree/pdf-content-extraction/pdf-content-extraction-data)               | **Position of each figure within the PDF** document along with the position of its caption.  It also contains the *figures and captions* associated with the online version of the article. | 285       | 1876     |
@@ -37,13 +38,14 @@ The dataset contain annotations for five task that assist the process of a scien
 
 
 
-The dataset is released in two formats: 
+The dataset is public released in two formats: 
 
 - [Spreadsheet](#csv-file) -- CSV
 - [Document-based](#json-file)  -- JSON
 
+Both files contain the URLs that allows a user to download all PDFs and Figures related to each article in the dataset.
 
-
+If you want to have access to our copy of the PDFs and Figures related to each article in the dataset _for academic research purposes_, please contact [Daniel Moreira](https://github.com/danielmoreira/sciint/blob/provenance-analysis/daniel.moreira@nd.edu).
 
 ## <a name="csv-file">SPREADSHEET</a>
 
