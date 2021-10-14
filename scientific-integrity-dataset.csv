@@ -28,8 +28,8 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 27,10.1371/journal.pone.0049705,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049705,Yes,No,-,-,Yes,No,No,No,No,No
 28,10.1155/2015/645603,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388018,Yes,No,-,-,Yes,No,No,No,No,No
 29,10.1186/s13287-016-0361-9,https://stemcellres.biomedcentral.com/articles/10.1186/s13287-016-0361-9,Yes,No,-,-,Yes,No,No,No,No,No
-30,10.1371/journal.pone.0028335,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028335,Yes,Yes,10.1371/annotation/7a1b01e4-b894-40ef-9c31-584e9c24ee0a,Fixed Author Information,Yes,No,No,No,No,No
-31,10.1002/cne.24080,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5054943,Yes,Yes,10.1002/cne.24130,Fixed Author Information,Yes,No,No,No,No,No
+30,10.1371/journal.pone.0028335,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028335,Yes,Yes,10.1371/annotation/7a1b01e4-b894-40ef-9c31-584e9c24ee0a,Wrong Author Information,Yes,No,No,No,No,No
+31,10.1002/cne.24080,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5054943,Yes,Yes,10.1002/cne.24130,Wrong Author Information,Yes,No,No,No,No,No
 32,10.2337/db08-0551,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2661585,Yes,No,-,-,Yes,No,No,No,No,No
 33,10.1371/journal.pone.0096872,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096872,Yes,No,-,-,Yes,No,No,No,No,No
 34,10.1364/BOE.2.002372,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3149535,Yes,No,-,-,Yes,No,No,No,No,No
@@ -83,7 +83,7 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 82,10.1038/onc.2009.118,https://www.nature.com/articles/onc2009118,Yes,No,-,-,Yes,No,No,No,No,No
 83,10.18632/oncotarget.6233,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4811457,Yes,No,-,-,Yes,No,No,No,No,No
 84,10.1155/2013/191375,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3600140,Yes,No,-,-,Yes,No,No,No,No,No
-85,10.1091/mbc.E12-04-0329,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3442411,Yes,Yes,10.1091/mboc.23.20.4142,Fixed Author Information,Yes,No,No,No,No,No
+85,10.1091/mbc.E12-04-0329,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3442411,Yes,Yes,10.1091/mboc.23.20.4142,Wrong Author Information,Yes,No,No,No,No,No
 86,10.1186/1471-2407-9-448,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-9-448,Yes,No,-,-,Yes,No,No,No,No,No
 87,10.1186/bcr3631,https://breast-cancer-research.biomedcentral.com/articles/10.1186/bcr3631,Yes,No,-,-,Yes,No,No,No,No,No
 88,10.1371/journal.pone.0021234,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0021234,Yes,No,-,-,Yes,No,No,No,No,No
@@ -154,7 +154,7 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 153,10.1093/nar/gkv1183,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4756816,Yes,No,-,-,Yes,No,No,No,No,No
 154,10.1038/srep38676,https://www.nature.com/articles/srep38676,Yes,No,-,-,Yes,No,No,No,No,No
 155,10.1186/2052-336X-12-83,https://link.springer.com/article/10.1186%2F2052-336X-12-83,Yes,No,-,-,Yes,No,No,No,No,No
-156,10.1371/journal.pone.0004924,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004924,Yes,Yes,10.1371/annotation/6359a6c2-90f8-4f7e-ad86-5bac5d62a7fe,Replaced Wrong Image,Yes,No,No,No,No,No
+156,10.1371/journal.pone.0004924,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004924,Yes,Yes,10.1371/annotation/6359a6c2-90f8-4f7e-ad86-5bac5d62a7fe,Image Error,Yes,No,No,No,No,No
 157,10.1590/1678-4685-GMB-2016-0091,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5127161,Yes,No,-,-,Yes,No,No,No,No,No
 158,10.1371/journal.pone.0161591,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161591,Yes,No,-,-,Yes,No,No,No,No,No
 159,10.4103/0971-5916.92643,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3284105,Yes,No,-,-,Yes,No,No,No,No,No
@@ -168,7 +168,7 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 167,10.1007/s12024-009-9119-3,https://link.springer.com/article/10.1007%2Fs12024-009-9119-3,Yes,No,-,-,Yes,No,No,No,No,No
 168,10.1093/nar/gks674,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467069,Yes,No,-,-,Yes,No,No,No,No,No
 169,10.1084/jem.190.1.9,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2195564,Yes,No,-,-,Yes,No,No,No,No,No
-170,10.1155/2014/196712,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058683,Yes,Yes,10.1093/dnares/dsu037,Fixed Text,Yes,No,No,No,No,No
+170,10.1155/2014/196712,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058683,Yes,Yes,10.1093/dnares/dsu037,Text Error,Yes,No,No,No,No,No
 171,10.1093/dnares/dst032,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3859325,Yes,No,-,-,Yes,No,No,No,No,No
 172,10.1007/s11095-010-0288-2,https://link.springer.com/article/10.1007%2Fs11095-010-0288-2,Yes,No,-,-,Yes,No,No,No,No,No
 173,10.1371/journal.pone.0086767,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0086767,Yes,No,-,-,Yes,No,No,No,No,No
@@ -210,7 +210,7 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 209,10.1371/journal.pone.0018752,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018752,Yes,No,-,-,Yes,No,No,No,No,No
 210,10.1091/mbc.E14-07-1186,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4325845,Yes,No,-,-,Yes,No,No,No,No,No
 211,10.1016/S1674-8301(11)60058-4,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3596724,Yes,No,-,-,Yes,No,No,No,No,No
-212,10.1038/s41598-017-01006-w,https://www.nature.com/articles/s41598-017-01006-w,Yes,Yes,10.1038/s41598-017-01006-w,Fixed Image Scale Bars,Yes,No,No,No,No,No
+212,10.1038/s41598-017-01006-w,https://www.nature.com/articles/s41598-017-01006-w,Yes,Yes,10.1038/s41598-017-01006-w,Image Error,Yes,No,No,No,No,No
 213,10.1186/s12879-016-1418-1,https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-016-1418-1,Yes,No,-,-,Yes,No,No,No,No,No
 214,10.1093/hmg/ddv445,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4706110,Yes,No,-,-,Yes,No,No,No,No,No
 215,10.1186/1471-2407-9-133,https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-9-133,Yes,No,-,-,Yes,No,No,No,No,No
@@ -231,7 +231,7 @@ ID,DOI,Link,Creative Commons,"Retracted/Corrected (as of July 21, 2021)","Retrac
 230,10.3390/toxins8070212,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4963845,Yes,No,-,-,Yes,No,No,No,No,No
 231,10.1371/journal.pone.0156912,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156912,Yes,No,-,-,Yes,No,No,No,No,No
 232,10.15252/embr.201541438,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4818780,Yes,No,-,-,Yes,No,No,No,No,No
-233,10.18632/oncotarget.4130,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4673294,Yes,Yes,10.18632/oncotarget.7117,Replaced Duplicated Video,Yes,No,No,No,No,No
+233,10.18632/oncotarget.4130,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4673294,Yes,Yes,10.18632/oncotarget.7117,Duplicated Video,Yes,No,No,No,No,No
 234,10.1155/2014/813672,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4267462,Yes,No,-,-,Yes,No,No,No,No,No
 235,10.1007/s13238-014-0070-z,https://link.springer.com/article/10.1007%2Fs13238-014-0070-z,Yes,No,-,-,Yes,No,No,No,No,No
 236,10.15252/embr.201642650,http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5286359,Yes,No,-,-,Yes,No,No,No,No,No
