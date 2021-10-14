@@ -139,20 +139,17 @@ If you are not a computer science expert, we recommend using a [JSON viewer](htt
 | Data Duplication                  | Article contains near-duplicated data from previous publications. |
 | Image Duplication Across Articles | Article contains near-duplicated images from previous publications. |
 | Image Duplication                 | Article contains a duplicated image within itself (e.g., a western-blot panel appears duplicated in the same figure or in two figure from the *same* article). |
-| Replaced Duplicated Video         | Article contains a duplicated video within itself.           |
+| Duplicated Video                  | Article contains a duplicated video within itself.           |
 | Data Error                        | Data presented in the article contains errors. (e.g., calculation error, data contamination). |
 | Text Error                        | Article contains text typos that were corrected with a *Correction Notice* |
-| Fixed Text                        | There were some typos along the article text that were corrected with a *Correction Notice*. |
 | Graph Error                       | Plots/chars present an error (e.g., use of an old version of the dataset to plot the data). |
 | Image Error                       | The image contains a presentation error (e.g., an image was mislabeled). |
-| Fixed Image Scale Bars            | Images were missing scale bars and were corrected with a *Correction Notice.* |
 | Image Falsification/Fabrication   | Image contains evidences of Falsification or Fabrication.    |
 | Image Manipulation                | Image contains evidences of manipulation (e.g., the background of a microscopy photo was erased). |
 | Invalid References                | Article contains invalid references.                         |
 | No Information                    | The *Retraction/Correction Notice* does not present any information regarding the retraction/correction. |
+| Data Falsification/Fabrication    | Data contains evidences of Falsification or Fabrication. |
 | Questionable Data                 | The authors were unable to prove the integrity of some data from the article |
 | Questionable Image                | The authors were unable to prove the integrity of at least an image from the article. |
-| Replaced Wrong Image              | An Image was mistakenly replaced during the manuscript preparation. |
 | Unreproducible Experiments        | Article contains unreproducible experiments.                 |
-| Fixed Author Information          |                                                              |
-| Wrong Author Information          |                                                              |
+| Wrong Author Information          | Article contains wrong author information (e.g., typo in author's name)      |
