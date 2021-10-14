@@ -9,7 +9,7 @@ This repository presents the subset of Scientific Integrity Dataset designed to 
 
 ## <a name="json-file">Dataset Annotation</a>
 
-The [PDF Content Extraction](pdf-content-extraction-annotation.json) is a JSON-based file containing annotation of the Figures and Caption related to a scientific paper. The annotation includes:
+The [PDF Content Extraction Dataset](pdf-content-extraction-annotation.json) is a JSON-based file containing annotation of the Figures and Caption related to a scientific paper. The annotation includes:
 - Position of the Figures within the paper's PDF.
 - Link to online version of the Figure.
 - Full Caption text of the Figure.
