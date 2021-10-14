@@ -63,7 +63,7 @@ If you want to extract only the figures caption, follow the instructions located
 
 # Evaluation
 
-To evaluate the *PDF figure extraction*, we annotated the figures and caption of 297 PDFs scientific papers and downloaded the original figures and caption from its publishers' official website.
+To evaluate the *PDF figure extraction*, we annotated the figures and caption of 285 PDFs scientific papers and downloaded the original figures and caption from its publishers' official website.
 
 The file [pdf-content-extraction-experimental-setup.json](dataset_tasks/pdf-content-extraction/pdf-content-extraction-experimental-setup.json) contains all annotation that we used to evaluate the tool (i.e., Figures URLs, PDF URLs, Figure positions, Caption texts).
 
