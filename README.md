@@ -71,7 +71,7 @@ To compute F1 metric without container, execute:
  python ./scripts/02_eval_all_results.py
  ```   
 
-The results is:
+The result is:
  ```
  Number of images: 180
  ****************************************
