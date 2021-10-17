@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1155_2015_978654__fig4",
+         "file": "prov_images/10.1155_2015_978654__fig4.svg",
+         "doi": "10.1155/2015/978654",
+         "fig": "fig4",
+         "pubdate": "2015-10-25",
+         "url": "https://static-01.hindawi.com/articles/omcl/volume-2015/978654/figures/978654.fig.004.svgz"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1155_2015_978654__fig5",
+         "file": "prov_images/10.1155_2015_978654__fig5.svg",
+         "doi": "10.1155/2015/978654",
+         "fig": "fig5",
+         "pubdate": "2015-10-25",
+         "url": "https://static-01.hindawi.com/articles/omcl/volume-2015/978654/figures/978654.fig.005.svgz"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

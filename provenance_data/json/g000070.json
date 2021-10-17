@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1158_1078-0432.CCR-06-2575__fig6",
+         "file": "prov_images/10.1158_1078-0432.CCR-06-2575__fig6.jpg",
+         "doi": "10.1158/1078-0432.CCR-06-2575",
+         "fig": "fig6",
+         "pubdate": "2007-5-15",
+         "url": "https://clincancerres.aacrjournals.org/content/clincanres/13/10/3024/F6.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1158_1541-7786.MCR-06-0348__fig6",
+         "file": "prov_images/10.1158_1541-7786.MCR-06-0348__fig6.jpg",
+         "doi": "10.1158/1541-7786.MCR-06-0348",
+         "fig": "fig6",
+         "pubdate": "2007-9-12",
+         "url": "https://mcr.aacrjournals.org/content/molcanres/5/9/943/F6.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

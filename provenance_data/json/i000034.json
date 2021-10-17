@@ -1,0 +1,16 @@
+{
+   "probe": "prov_images/10.1194_jlr.M011155__fig1.jpg",
+   "images": [
+      "prov_images/10.1194_jlr.M011155__fig1.jpg",
+      "prov_images/10.1194_jlr.M011155__fig2.jpg",
+      "prov_images/10.1194_jlr.M011155__fig3.jpg",
+      "prov_images/10.1194_jlr.M011155__fig4.jpg"
+   ],
+   "dates": [
+      "20110601",
+      "20110601",
+      "20110601",
+      "20110601"
+   ],
+   "output": "o000034.json"
+}

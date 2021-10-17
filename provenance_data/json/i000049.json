@@ -1,0 +1,26 @@
+{
+   "probe": "prov_images/10.1074_jbc.M109.095208__fig4.jpg",
+   "images": [
+      "prov_images/10.1074_jbc.M109.095208__fig1.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig2.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig3.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig4.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig5.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig6.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig7.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig8.jpg",
+      "prov_images/10.1074_jbc.M109.095208__fig9.jpg"
+   ],
+   "dates": [
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111",
+      "20100111"
+   ],
+   "output": "o000049.json"
+}

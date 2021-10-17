@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "pubmed.ncbi.nlm.nih.gov_23288991__fig5",
+         "file": "prov_images/pubmed.ncbi.nlm.nih.gov_23288991__fig5.jpg",
+         "doi": "pubmed.ncbi.nlm.nih.gov/23288991",
+         "fig": "fig5",
+         "pubdate": "2012-12-14",
+         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3534146/bin/mv-v18-2993-f5.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1371_journal.pone.0054692__fig2",
+         "file": "prov_images/10.1371_journal.pone.0054692__fig2.png",
+         "doi": "10.1371/journal.pone.0054692",
+         "fig": "fig2",
+         "pubdate": "2013-1-24",
+         "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0054692.g002"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+{
+   "probe": "prov_images/10.1074_jbc.M111.329078__fig1.jpg",
+   "images": [
+      "prov_images/10.1074_jbc.M111.329078__fig1.jpg",
+      "prov_images/10.1074_jbc.M111.329078__fig2.jpg",
+      "prov_images/10.1074_jbc.M111.329078__fig3.jpg",
+      "prov_images/10.1074_jbc.M111.329078__fig4.jpg",
+      "prov_images/10.1074_jbc.M111.329078__fig5.jpg",
+      "prov_images/10.1074_jbc.M111.329078__fig6.jpg"
+   ],
+   "dates": [
+      "20120323",
+      "20120323",
+      "20120323",
+      "20120323",
+      "20120323",
+      "20120323"
+   ],
+   "output": "o000010.json"
+}

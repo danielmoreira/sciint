@@ -1,0 +1,20 @@
+{
+   "probe": "prov_images/10.1371_journal.pone.0005877__fig1.png",
+   "images": [
+      "prov_images/10.1371_journal.pone.0005877__fig1.png",
+      "prov_images/10.1371_journal.pone.0005877__fig2.png",
+      "prov_images/10.1371_journal.pone.0005877__fig3.png",
+      "prov_images/10.1371_journal.pone.0005877__fig4.png",
+      "prov_images/10.1371_journal.pone.0005877__fig5.png",
+      "prov_images/10.1371_journal.pone.0005877__fig6.png"
+   ],
+   "dates": [
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611",
+      "20090611"
+   ],
+   "output": "o000041.json"
+}

@@ -1,0 +1,47 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_MCB.05424-11__fig2",
+         "file": "prov_images/10.1128_MCB.05424-11__fig2.jpg",
+         "doi": "10.1128/MCB.05424-11",
+         "fig": "fig2",
+         "pubdate": "2011-8-10",
+         "url": "https://mcb.asm.org/content/mcb/31/17/3515/F2.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_MCB.05424-11__fig4",
+         "file": "prov_images/10.1128_MCB.05424-11__fig4.jpg",
+         "doi": "10.1128/MCB.05424-11",
+         "fig": "fig4",
+         "pubdate": "2011-8-10",
+         "url": "https://mcb.asm.org/content/mcb/31/17/3515/F4.large.jpg"
+      },
+      {
+         "id": "id2",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1128_MCB.05424-11__fig3",
+         "file": "prov_images/10.1128_MCB.05424-11__fig3.jpg",
+         "doi": "10.1128/MCB.05424-11",
+         "fig": "fig3",
+         "pubdate": "2011-8-10",
+         "url": "https://mcb.asm.org/content/mcb/31/17/3515/F3.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      },
+      {
+         "source": 2,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

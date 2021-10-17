@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1155_2013_782450__fig4",
+         "file": "prov_images/10.1155_2013_782450__fig4.jpg",
+         "doi": "10.1155/2013/782450",
+         "fig": "fig4",
+         "pubdate": "2013-08-28",
+         "url": "https://static-01.hindawi.com/articles/bmri/volume-2013/782450/figures/782450.fig.004.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1155_2013_782450__fig5A",
+         "file": "prov_images/10.1155_2013_782450__fig5A.jpg",
+         "doi": "10.1155/2013/782450",
+         "fig": "fig5A",
+         "pubdate": "2013-08-28",
+         "url": "https://static-01.hindawi.com/articles/bmri/volume-2013/782450/figures/782450.fig.005a.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

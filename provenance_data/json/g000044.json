@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1073_pnas.1009056107__fig2",
+         "file": "prov_images/10.1073_pnas.1009056107__fig2.jpg",
+         "doi": "10.1073/pnas.1009056107",
+         "fig": "fig2",
+         "pubdate": "2010-08-24",
+         "url": "https://www.pnas.org/content/pnas/107/34/15281/F2.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1371_journal.pone.0015773__fig6",
+         "file": "prov_images/10.1371_journal.pone.0015773__fig6.png",
+         "doi": "10.1371/journal.pone.0015773",
+         "fig": "fig6",
+         "pubdate": "2010-12-22",
+         "url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0015773.g006"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1194_jlr.M011155__fig1",
+         "file": "prov_images/10.1194_jlr.M011155__fig1.jpg",
+         "doi": "10.1194/jlr.M011155",
+         "fig": "fig1",
+         "pubdate": "2011-3-28",
+         "url": "https://www.jlr.org/content/52/6/1162/F1.large.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1194_jlr.M011155__fig2",
+         "file": "prov_images/10.1194_jlr.M011155__fig2.jpg",
+         "doi": "10.1194/jlr.M011155",
+         "fig": "fig2",
+         "pubdate": "2011-3-28",
+         "url": "https://www.jlr.org/content/52/6/1162/F2.large.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

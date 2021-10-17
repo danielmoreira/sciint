@@ -1,0 +1,28 @@
+{
+   "probe": "prov_images/10.1158_0008-5472.CAN-10-0655__fig3.jpg",
+   "images": [
+      "prov_images/10.1158_0008-5472.CAN-10-0655__fig1.jpg",
+      "prov_images/10.1158_0008-5472.CAN-10-0655__fig2.jpg",
+      "prov_images/10.1158_0008-5472.CAN-10-0655__fig3.jpg",
+      "prov_images/10.1158_0008-5472.CAN-10-0655__fig4.jpg",
+      "prov_images/10.1158_0008-5472.CAN-10-0655__fig5.jpg",
+      "prov_images/10.3892_ijmm.2015.2147__fig1.jpg",
+      "prov_images/10.3892_ijmm.2015.2147__fig2.jpg",
+      "prov_images/10.3892_ijmm.2015.2147__fig3.jpg",
+      "prov_images/10.3892_ijmm.2015.2147__fig4.jpg",
+      "prov_images/10.3892_ijmm.2015.2147__fig5.jpg"
+   ],
+   "dates": [
+      "20100701",
+      "20100701",
+      "20100701",
+      "20100701",
+      "20100701",
+      "20150318",
+      "20150318",
+      "20150318",
+      "20150318",
+      "20150318"
+   ],
+   "output": "o000005.json"
+}

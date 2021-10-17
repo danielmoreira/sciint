@@ -1,0 +1,36 @@
+{
+   "probe": "prov_images/10.1016_j.brainres.2016.03.049__fig3.png",
+   "images": [
+      "prov_images/10.1016_j.brainres.2016.03.049__fig1.png",
+      "prov_images/10.1016_j.brainres.2016.03.049__fig2.png",
+      "prov_images/10.1016_j.brainres.2016.03.049__fig3.png",
+      "prov_images/10.1016_j.brainres.2016.03.049__fig4.png",
+      "prov_images/10.1016_j.brainres.2016.03.049__fig5.png",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig1.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig2.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig3.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig4.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig5.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig6.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig7.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig8.jpg",
+      "prov_images/10.1016_j.jstrokecerebrovasdis.2016.03.033__fig9.jpg"
+   ],
+   "dates": [
+      "20160330",
+      "20160330",
+      "20160330",
+      "20160330",
+      "20160330",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701",
+      "20160701"
+   ],
+   "output": "o000001.json"
+}

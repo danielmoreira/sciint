@@ -1,0 +1,27 @@
+{
+   "probe": "prov_images/10.1021_acsbiomaterials.8b00249__fig6.jpg",
+   "images": [
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig1.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig2.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig3.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig4.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig5.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig6.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig7.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__fig8.jpg",
+      "prov_images/10.1021_acsbiomaterials.8b00249__graphical_abstract.gif"
+   ],
+   "dates": [
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503",
+      "20180503"
+   ],
+   "output": "o000003.json"
+}

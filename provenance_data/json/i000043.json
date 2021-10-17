@@ -1,0 +1,20 @@
+{
+   "probe": "prov_images/10.1002_jcb.22770__fig1.jpg",
+   "images": [
+      "prov_images/10.1002_jcb.22770__fig1.jpg",
+      "prov_images/10.1002_jcb.22770__fig2.jpg",
+      "prov_images/10.1002_jcb.22770__fig3.jpg",
+      "prov_images/10.1002_jcb.22770__fig4.jpg",
+      "prov_images/10.1002_jcb.22770__fig5.jpg",
+      "prov_images/10.1002_jcb.22770__fig6.jpg"
+   ],
+   "dates": [
+      "20110215",
+      "20110215",
+      "20110215",
+      "20110215",
+      "20110215",
+      "20110215"
+   ],
+   "output": "o000043.json"
+}

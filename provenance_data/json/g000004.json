@@ -1,0 +1,32 @@
+{
+   "directed": true,
+   "nodes": [
+      {
+         "id": "id0",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_hep.26505__fig4",
+         "file": "prov_images/10.1002_hep.26505__fig4.jpg",
+         "doi": "10.1002/hep.26505",
+         "fig": "fig4",
+         "pubdate": "2013-10-30",
+         "url": "https://aasldpubs.onlinelibrary.wiley.com/cms/asset/f39427d8-e7d2-4975-82f6-d009607fba69/hep26505-fig-0004-m.jpg"
+      },
+      {
+         "id": "id1",
+         "nodeConfidenceScore": 1.0,
+         "fileid": "10.1002_hep.26505__fig5",
+         "file": "prov_images/10.1002_hep.26505__fig5.jpg",
+         "doi": "10.1002/hep.26505",
+         "fig": "fig5",
+         "pubdate": "2013-10-30",
+         "url": "https://aasldpubs.onlinelibrary.wiley.com/cms/asset/40fe8036-e19f-4b9f-8c15-7f820213e5f9/hep26505-fig-0005-m.jpg"
+      }
+   ],
+   "links": [
+      {
+         "source": 0,
+         "target": 1,
+         "relationshipConfidenceScore": 1.0
+      }
+   ]
+}

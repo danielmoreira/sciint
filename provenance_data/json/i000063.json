@@ -1,0 +1,20 @@
+{
+   "probe": "prov_images/10.1093_carcin_bgq215__fig3.jpg",
+   "images": [
+      "prov_images/10.1093_carcin_bgq215__fig1.jpg",
+      "prov_images/10.1093_carcin_bgq215__fig2.jpg",
+      "prov_images/10.1093_carcin_bgq215__fig3.jpg",
+      "prov_images/10.1093_carcin_bgq215__fig4.jpg",
+      "prov_images/10.1093_carcin_bgq215__fig5.jpg",
+      "prov_images/10.1093_carcin_bgq215__fig6.jpg"
+   ],
+   "dates": [
+      "20101025",
+      "20101025",
+      "20101025",
+      "20101025",
+      "20101025",
+      "20101025"
+   ],
+   "output": "o000063.json"
+}

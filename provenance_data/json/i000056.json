@@ -1,0 +1,20 @@
+{
+   "probe": "prov_images/10.3389_fphys.2015.00381__fig1.jpg",
+   "images": [
+      "prov_images/10.3389_fphys.2015.00381__fig1.jpg",
+      "prov_images/10.3389_fphys.2015.00381__fig2.jpg",
+      "prov_images/10.3389_fphys.2015.00381__fig3.jpg",
+      "prov_images/10.3389_fphys.2015.00381__fig4.jpg",
+      "prov_images/10.3389_fphys.2015.00381__fig5.jpg",
+      "prov_images/10.3389_fphys.2015.00381__fig6.jpg"
+   ],
+   "dates": [
+      "20151222",
+      "20151222",
+      "20151222",
+      "20151222",
+      "20151222",
+      "20151222"
+   ],
+   "output": "o000056.json"
+}

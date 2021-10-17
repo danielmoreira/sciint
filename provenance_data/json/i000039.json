@@ -1,0 +1,15 @@
+{
+   "probe": "prov_images/pubmed.ncbi.nlm.nih.gov_12873984__fig1.jpg",
+   "images": [
+      "prov_images/10.1016_S0006-291X(02)02004-1__fig1.jpg",
+      "prov_images/10.1158_1078-0432.ccr-03-0166__fig1.jpg",
+      "prov_images/pubmed.ncbi.nlm.nih.gov_12873984__fig1.jpg"
+   ],
+   "dates": [
+      "20020830",
+      "20040301",
+      "20030715"
+   ],
+   "output": "o000039.json"
+}
+
