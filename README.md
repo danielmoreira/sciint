@@ -63,7 +63,7 @@ If you want to extract only the figures caption, follow the instructions located
 
 # Evaluation
 
-To evaluate the *PDF figure extraction*, we annotated the figures and caption of 297 PDFs scientific papers and downloaded the original figures and caption from its publishers' official website.
+To evaluate the *PDF figure extraction*, we annotated the figures and caption of 285 PDFs scientific papers and downloaded the original figures and caption from its publishers' official website.
 
 The file [pdf-content-extraction-experimental-setup.json](dataset_tasks/pdf-content-extraction/pdf-content-extraction-experimental-setup.json) contains all annotation that we used to evaluate the tool (i.e., Figures URLs, PDF URLs, Figure positions, Caption texts).
 
@@ -75,13 +75,16 @@ To evaluate the figure extraction, we compared the extracted figures with the fi
 
 **Metric**
 
-[Structural similarity index](https://en.wikipedia.org/wiki/Structural_similarity) (SSIM).
+1. [Structural similarity index](https://en.wikipedia.org/wiki/Structural_similarity) (SSIM).
 We use the implementation of the scikit image library [4] during this evaluation.
+
+2. Image Recall (IR). Number of images successfully extracted. For this, we considered all images that have `SSIM >= 0.7`
+
 
 **Score**
 
-Average SSIM  = 77 (29)
-
+1. Average SSIM  = 0.77 (0.29)
+1. IR = 0.71
 
 
 You can reproduce our results by running the [PDF Image Extraction](PDF%20Image%20Extraction.ipynb) Notebook.
