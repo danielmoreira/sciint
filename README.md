@@ -75,13 +75,16 @@ To evaluate the figure extraction, we compared the extracted figures with the fi
 
 **Metric**
 
-[Structural similarity index](https://en.wikipedia.org/wiki/Structural_similarity) (SSIM).
+1. [Structural similarity index](https://en.wikipedia.org/wiki/Structural_similarity) (SSIM).
 We use the implementation of the scikit image library [4] during this evaluation.
+
+2. Image Recall (IR). Number of images successfully extracted. For this, we considered all images that have `SSIM >= 0.7`
+
 
 **Score**
 
-Average SSIM  = 77 (29)
-
+1. Average SSIM  = 0.77 (0.29)
+1. IR = 0.71
 
 
 You can reproduce our results by running the [PDF Image Extraction](PDF%20Image%20Extraction.ipynb) Notebook.
