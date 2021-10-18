@@ -9,7 +9,7 @@ This repository presents the subset of Scientific Integrity Dataset designed to 
 
 ## <a name="json-file">Dataset Annotation</a>
 
-The [Copy-Move Detection Dataset](copy-move-annotation.json) is a JSON-based file containing 182 annotated scientific figures indicating the position of a reported inappropriate copy-move image region.
+The [Copy-Move Detection Dataset](copy-move-annotation.json) is a JSON-based file containing 180 annotated scientific figures indicating the position of a reported inappropriate copy-move image region.
 
 The annotation includes:
 
