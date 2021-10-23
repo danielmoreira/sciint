@@ -52,30 +52,24 @@ def _mask_text_out(gs_image):
         # current mask
         mask = numpy.ones((h, w), numpy.uint8) * 255
 
-        # character size control
-        sizes = []
-        mean_size = 0.0
-        std_size = 0.0
-
         # detects and masks out all the text within the current image
-        text = pytesseract.image_to_boxes(gs_image)
-        text = [character.split() for character in text.split('\n')]
-        for _, character in enumerate(text):
-            # if the character is valid (tesseract messes up with lines as tildes)
-            if len(character) >= 5 and character[0] != '~':
-                r0 = int(character[1])
-                c0 = h - int(character[2])
-                r1 = int(character[3])
-                c1 = h - int(character[4])
+        tesse_data = pytesseract.image_to_data(gs_image).split('\n')[1:]  # 0th row is header
+        for row in tesse_data:
+            items = row.split()
+            if len(items) == 12 and float(items[10]) > 75:  # 75 is the confidence (between 0 and 100)
+                has_alpha = False
+                for c in str(items[11]):
+                    if c.isalnum():
+                        has_alpha = True
+                        break
 
-                c_size = abs(c1 - c0)
-                if std_size == 0.0 or c_size < mean_size + 3.0 * std_size:
+                if has_alpha:
+                    r0 = int(items[6])
+                    c0 = int(items[7])
+                    r1 = r0 + int(items[8])
+                    c1 = c0 + int(items[9])
+
                     cv2.rectangle(mask, (r0, c0), (r1, c1), (0, 0, 0), -1)
-                    cv2.rectangle(mask, (r0, c0), (r1, c1), (0, 0, 0), 3)
-
-                    sizes.append(c_size)
-                    mean_size = numpy.mean(sizes)
-                    std_size = numpy.std(sizes)
 
         masks.append(mask)
 
