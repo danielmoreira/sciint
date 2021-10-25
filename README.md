@@ -57,7 +57,7 @@ Following the [content](https://www.nist.gov/system/files/documents/2019/03/12/m
 proposed by NIST within the DARPA MediFor project, we recommend the adoption of the following metrics to assess and
 track the quality of the implemented solution:
 
-1. Node recall (NR);
+1. Node Recall (NR);
 2. Node overlap (NO);
 3. Edge overlap (EO);
 4. Node and edge (graph) overlap (VEO).
@@ -78,3 +78,14 @@ data:
    ```
    docker exec sci-provenance /provenance/02_eval_all_graphs.sh
    ```
+
+The result will be:
+
+Metric                     | Mean (Std)
+---------------------------|------------------------------------------
+NR                         | 0.6107142857142858 (0.249889431331452)
+**NO**                     | **0.6445054945054944 (0.1492003265112617)**
+EO                         | 0.09285714285714286 (0.2338187370893508)
+VEO                        | 0.4739657802514946 (0.1547762460416074)
+**EO (undirected edges)**  | **0.16404761904761905 (0.31572083954987373)**
+**VEO (undirected edges)** | **0.49903937332508763 (0.19224382035699397)**
