@@ -59,32 +59,23 @@ def _apply_kruskal(adj_matrix, maximum_st=True):
 
 # Generates a provenance DAG from a given adjacency matrix.
 # Kruskal strategy (maximum spanning tree) based on the number of interest points.
-def json_it(filepaths, npz_filepath, out_filepath):
+def json_it(filepaths, imagedates, npz_filepath, out_filepath):
+    imagedates.insert(0, imagedates[-1])  # probe in 1st position
+
     npz_file = numpy.load(npz_filepath)
     kp_matrix = npz_file['arr_0']  # number of interest points
-    mi_matrix = npz_file['arr_1']  # number of interest points
-
-    # max_kp = numpy.max(kp_matrix) + 1e-7
-    # max_mi = numpy.max(mi_matrix) + 1e-7
+    # mi_matrix = npz_file['arr_1']  # mutual information
 
     adj_matrix = numpy.zeros(kp_matrix.shape, dtype=numpy.float32)
     for r in range(0, adj_matrix.shape[0] - 1):
         for c in range(r + 1, adj_matrix.shape[1]):
-            # adj_matrix[r, c] = 0.25 * kp_matrix[r, c] / max_kp + 0.75 * mi_matrix[r, c] / max_mi
-            # adj_matrix[c, r] = 0.25 * kp_matrix[c, r] / max_kp + 0.75 * mi_matrix[c, r] / max_mi
-
-            if mi_matrix[r, c] >= mi_matrix[c, r]:
+            if imagedates[r] < imagedates[c]:
                 adj_matrix[r, c] = kp_matrix[r, c]
             else:
                 adj_matrix[c, r] = kp_matrix[c, r]
 
     node_count = adj_matrix.shape[0]
     tree = _apply_kruskal(adj_matrix, maximum_st=True)
-
-    # processes self-relations
-    for i in range(0, kp_matrix.shape[0]):
-        if kp_matrix[i, i] > 0:
-            tree[i, i] = kp_matrix[i, i]
 
     image_file_paths = [filepaths[-1]]
     image_confidence_scores = [1.0]

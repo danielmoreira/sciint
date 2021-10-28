@@ -18,8 +18,23 @@ with open(sys.argv[1]) as input_file:
 probe_file_path = input_data['probe']
 json_output_file_path = input_data['output']
 image_file_paths = input_data['images']
-image_file_paths.remove(probe_file_path)
-image_file_paths.append(probe_file_path)  # probe in the last position
+image_dates = input_data['dates']
+
+# probe in the last position
+try:
+    probe_index = image_file_paths.index(probe_file_path)
+except ValueError:
+    probe_index = -1
+
+if probe_index > -1:
+    image_file_paths.append(image_file_paths[probe_index])
+    image_dates.append(image_dates[probe_index])
+    del image_file_paths[probe_index]
+    del image_dates[probe_index]
+else:
+    image_file_paths.append(probe_file_path)
+    image_dates.append('00000000')
+
 print('[INFO] There are', len(image_file_paths), 'images to be processed.')
 
 # reads the images to be processed
@@ -55,6 +70,6 @@ adjacency_matrix_builder.build_adj_matrix(images, keypoints, descriptions, adj_m
 print('[INFO] Created adjacency matrix.')
 
 # generates the provenance graph
-kruskal_graph_builder.json_it(image_file_paths, adj_mat_file_path, json_output_file_path)
+kruskal_graph_builder.json_it(image_file_paths, image_dates, adj_mat_file_path, json_output_file_path)
 os.remove(adj_mat_file_path)
 print('[INFO] Created provenance graph.')
