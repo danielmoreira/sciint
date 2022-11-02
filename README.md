@@ -118,7 +118,7 @@ You can reproduce our results by running the [PDF Caption Extraction](PDF%20Capt
 
 
 
-## Reference
+## References
 
 [1]  Kravets, Elisabeth et al. “Guanylate binding proteins directly attack Toxoplasma gondii via supramolecular complexes.” *eLife* vol. 5 e11479. 27 Jan. 2016, doi:10.7554/eLife.11479
 
@@ -127,3 +127,21 @@ You can reproduce our results by running the [PDF Caption Extraction](PDF%20Capt
 [3] **TextDistance** -- python library for comparing distance between two or more sequences by many algorithms. Code: https://github.com/life4/textdistance
 
 [4]  Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the scikit-image contributors. **scikit-image: Image processing in Python**. PeerJ 2:e453 (2014) https://doi.org/10.7717/peerj.453
+
+
+## Cite this Work
+Please cite as:
+> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
+> https://doi.org/10.1038/s41598-022-21535-3
+
+```
+@article{sila,
+   author = {Moreira, Daniel and Cardenuto, João Phillipe and Shao, Ruiting and Baireddy, Sriram and Cozzolino, Davide and Gragnaniello, Diego and Abd‑Almageed, Wael and Bestagini, Paolo and Tubaro, Stefano and Rocha, Anderson and Scheirer, Walter and Verdoliva, Luisa and Delp, Edward},
+   title = {{SILA: a system for scientifc image analysis}},
+   journal = {Nature Scientific Reports},
+   year = 2022,
+   number = {12},
+   volume = {18306},
+   pages = {1--15}
+}
+```
