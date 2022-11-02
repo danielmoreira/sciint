@@ -1,7 +1,7 @@
 # SILA: A System for Scientific Image Analysis
-**Under Construction.**
-Source codes to reproduce experimental results of a paper currently under review.
-More information about this paper will soon be added here.
+Source codes to reproduce the experimental results of our Springer Nature Scientific Reports paper titled "SILA: a system for scientifc image
+analysis", available at https://www.nature.com/articles/s41598-022-21535-3.
+![SILA workflow.](system-workflow.png)
 
 ## Scientific Papers Dataset
 To support assessing the efficacy of the system proposed in the paper, we collected a dataset of scientific manuscripts containing annotated image manipulations and inadvertent figure reuse.
