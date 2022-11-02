@@ -89,3 +89,21 @@ EO                         | 0.06428571428571428 (0.21874979753796914)
 VEO                        | 0.4622016079158937 (0.1555303657895078)
 **EO (undirected edges)**  | **0.16404761904761905 (0.31572083954987373)**
 **VEO (undirected edges)** | **0.49903937332508763 (0.19224382035699397)**
+
+
+## Cite this Work
+Please cite as:
+> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
+> https://doi.org/10.1038/s41598-022-21535-3
+
+```
+@article{sila,
+   author = {Moreira, Daniel and Cardenuto, João Phillipe and Shao, Ruiting and Baireddy, Sriram and Cozzolino, Davide and Gragnaniello, Diego and Abd‑Almageed, Wael and Bestagini, Paolo and Tubaro, Stefano and Rocha, Anderson and Scheirer, Walter and Verdoliva, Luisa and Delp, Edward},
+   title = {{SILA: a system for scientifc image analysis}},
+   journal = {Nature Scientific Reports},
+   year = 2022,
+   number = {12},
+   volume = {18306},
+   pages = {1--15}
+}
+```
