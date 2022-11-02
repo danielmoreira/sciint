@@ -22,8 +22,8 @@ The implementation and test scripts of the modules composing the proposed system
 
 ## Cite this Work
 Please cite as:
->> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
->> https://doi.org/10.1038/s41598-022-21535-3
+> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
+> https://doi.org/10.1038/s41598-022-21535-3
 
 ```
 @article{sila,
