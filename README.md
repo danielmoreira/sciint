@@ -92,3 +92,21 @@ Metric   | Mean (Std)
 P@1      | 0.5860007034822371 (0.4925483519417767)
 P@5      | 0.41238128737249385 (0.31746233650357253)
 P@10     | 0.3211748153359128 (0.2365817038758192)
+
+
+## Cite this Work
+Please cite as:
+> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
+> https://doi.org/10.1038/s41598-022-21535-3
+
+```
+@article{sila,
+   author = {Moreira, Daniel and Cardenuto, João Phillipe and Shao, Ruiting and Baireddy, Sriram and Cozzolino, Davide and Gragnaniello, Diego and Abd‑Almageed, Wael and Bestagini, Paolo and Tubaro, Stefano and Rocha, Anderson and Scheirer, Walter and Verdoliva, Luisa and Delp, Edward},
+   title = {{SILA: a system for scientifc image analysis}},
+   journal = {Nature Scientific Reports},
+   year = 2022,
+   number = {12},
+   volume = {18306},
+   pages = {1--15}
+}
+```
