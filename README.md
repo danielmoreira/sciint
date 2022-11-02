@@ -115,3 +115,21 @@ You can reproduce our experiment using the [Content Segmentation](Content%20Segm
 [1] Tsutsui, Satoshi, and David J. Crandall. "A data driven approach for compound figure separation using convolutional neural networks." *2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)*. Vol. 1. IEEE, 2017.
 
 [2] Zhou, Y., Zhang, J., Wu, H., Hogan, M. V., & Wang, J. H.-C. (2015). The differential effects of leukocyte-containing and pure platelet-rich plasma (PRP) on tendon stem/progenitor cells - implications of PRP application for the clinical treatment of tendon injuries. Stem Cell Research & Therapy, 6(1). https://doi.org/10.1186/s13287-015-0172-4
+
+
+## Cite this Work
+Please cite as:
+> Moreira, D., Cardenuto, J.P., Shao, R. et al. SILA: a system for scientific image analysis. Nature Scientific Reports 12 (18306), 2022.
+> https://doi.org/10.1038/s41598-022-21535-3
+
+```
+@article{sila,
+   author = {Moreira, Daniel and Cardenuto, João Phillipe and Shao, Ruiting and Baireddy, Sriram and Cozzolino, Davide and Gragnaniello, Diego and Abd‑Almageed, Wael and Bestagini, Paolo and Tubaro, Stefano and Rocha, Anderson and Scheirer, Walter and Verdoliva, Luisa and Delp, Edward},
+   title = {{SILA: a system for scientifc image analysis}},
+   journal = {Nature Scientific Reports},
+   year = 2022,
+   number = {12},
+   volume = {18306},
+   pages = {1--15}
+}
+```
