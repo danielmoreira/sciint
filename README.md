@@ -47,7 +47,7 @@ For testing purposes, we add to this repository a sample [figure](sample.png) co
 To perform the test, run the following instructions inside a python shell:
 
 ```python
-In [1]: from panel_extraction_src.PanelExtraction import PanelExtractionmodel 
+In [1]: from panel_extraction_src.PanelExtraction import PanelExtraction 
 In [2]: panel_extraction=PanelExtraction("panel_extraction_src/panel_extraction.pb")
 In [3]: panel_extraction.extract('sample.png')
 ```
