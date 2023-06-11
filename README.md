@@ -102,8 +102,7 @@ VEO                        | 0.462 (0.156)                          | 0.471 (0.1
 > **What is new?**   
 > * Improved OCR detection to reduce false positives due to the unwanted match of image legends or annotations.
 > * Better processing of small-sized images to gather more information from their content.
-> * More deterministic comparison of images; now matching image A with B is more likely to have the same result as
-> matching B with A.
+> * More deterministic comparison of images; now matching image A to B is more likely to have the same result as matching B to A.
 > * Earlier execution stop when finding enough visual content matches; this speeds up runtime.
 
 ## Cite this Work
