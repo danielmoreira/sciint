@@ -16,14 +16,11 @@ def compute_ij_relation(i, j, keypoints, descriptions, imgs):
     if len(keypoints[i]) == 0 or len(keypoints[j]) == 0:
         return [], -1
 
-    if i == j:  # self-relation, copy-move detection
-        normal_matches = keypoint_matcher.match(imgs[i].shape, keypoints[i][0], descriptions[i][0])
-    else:
-        normal_matches = keypoint_matcher.match(imgs[i].shape, keypoints[i][0], descriptions[i][0],
-                                                imgs[j].shape, keypoints[j][0], descriptions[j][0])
+    normal_matches = keypoint_matcher.match(keypoints[i][0], descriptions[i][0],
+                                            keypoints[j][0], descriptions[j][0])
 
-    flip_matches = keypoint_matcher.match(imgs[i].shape, keypoints[i][0], descriptions[i][0],
-                                          imgs[j].shape, keypoints[j][1], descriptions[j][1])
+    flip_matches = keypoint_matcher.match(keypoints[i][0], descriptions[i][0],
+                                          keypoints[j][1], descriptions[j][1])
 
     matches = normal_matches
     flip = 0

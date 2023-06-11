@@ -15,7 +15,7 @@ CLAHE_APPLIER = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 # Keeps doubling the size of the given <image> and respective <mask> up to the point of having
 # more pixels than <min_image_size>.
 # Returns the re-sized image and mask, and the number of times they were re-sized.
-def _increase_image_if_necessary(image, mask=None, min_image_size=10000):
+def _increase_image_if_necessary(image, mask=None, min_image_size=100000):
     resize_count = 0
 
     while image.shape[0] * image.shape[1] < min_image_size:
@@ -52,9 +52,8 @@ def _mask_text_out(gs_image):
         # current mask
         mask = numpy.ones((h, w), numpy.uint8) * 255
 
-        # detects and masks out all the text within the current image
-        tesse_data = pytesseract.image_to_data(gs_image).split('\n')[1:]  # 0th row is header
-        for row in tesse_data:
+        tsr_data = pytesseract.image_to_data(gs_image).split('\n')[1:]  # 0th row is header
+        for row in tsr_data:
             items = row.split()
             if len(items) == 12 and float(items[10]) > 75:  # 75 is the confidence (between 0 and 100)
                 has_alpha = False
@@ -91,11 +90,10 @@ def _mask_text_out(gs_image):
     masks[4] = imutils.rotate_bound(masks[4], -90)
 
     # combines the obtained masks
-    mask = masks[0]
-    mask = cv2.bitwise_and(mask, mask, mask=masks[1])
-    mask = cv2.bitwise_and(mask, mask, mask=masks[2])
-    mask = cv2.bitwise_and(mask, mask, mask=masks[3])
-    mask = cv2.bitwise_and(mask, mask, mask=masks[4])
+    mask = numpy.ones((h, w), numpy.uint8) * 255
+    for i in range(5):
+        if numpy.max(masks[i]) > 0:
+            mask = cv2.bitwise_and(mask, mask, mask=masks[i])
 
     # returns the computed mask
     mask = cv2.resize(mask, (ow, oh))
@@ -142,7 +140,7 @@ def sift_detect_rsift_describe(image, kp_count=2000, mask=None, mask_text=True, 
 
     # else...
     # sorts the obtained keypoints according to their response, and keeps only the top-<kp_count> ones
-    keypoints.sort(key=lambda k: k.response, reverse=True)
+    keypoints = sorted(keypoints, key=lambda k: k.response, reverse=True)
     del keypoints[kp_count:]
 
     # describes the remaining keypoints

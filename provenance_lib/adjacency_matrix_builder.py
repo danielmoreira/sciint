@@ -1,6 +1,5 @@
 # TODO add description.
 
-import os
 import numpy
 import cv2
 import multiprocessing
