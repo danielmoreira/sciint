@@ -16,7 +16,7 @@ module.
 1. Install [Git.](https://github.com/git-guides/install-git)
 2. Install [Git Large File Storage.](https://git-lfs.github.com/)
 3. Install [Docker.](https://docs.docker.com/get-docker/)
-4. Check the project out from GitLab.
+4. Check the project out from GitHub.
     ```
     git lfs clone --branch provenance-analysis https://github.com/danielmoreira/sciint.git sci-provenance
     ```
@@ -99,10 +99,11 @@ VEO                        | 0.462 (0.156)                          | 0.471 (0.1
 **EO (undirected edges)**  | 0.164 (0.316)                          | **0.198 (0.327)**
 **VEO (undirected edges)** | 0.499 (0.192)                          | **0.514 (0.193)**
 
-> **What is new?**   
+> **What is new?**
 > * Improved OCR detection to reduce false positives due to the unwanted match of image legends or annotations.
 > * Better processing of small-sized images to gather more information from their content.
-> * More deterministic comparison of images; now matching image A to B is more likely to have the same result as matching B to A.
+> * More deterministic comparison of images; now matching image A to B is more likely to have the same result as
+    matching B to A.
 > * Earlier execution stop when finding enough visual content matches; this speeds up runtime.
 
 ## Cite this Work
