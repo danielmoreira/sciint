@@ -12,7 +12,7 @@ Typically, a scientific figure is presented with compound panels representing mu
 
 For this task, we used the implementation of Satoshi Tsutsui, and David Crandall [1]. Their code and model can be found at this [link](https://github.com/apple2373/figure-separator). 
 
-- We are making available an adapted version of Compound Figure Separator [1] - [Google Drive](https://drive.google.com/file/d/1BVVN736dIm2Gb39g1A9yHNwAJT7PuKX6/view?usp=sharing) to our data
+- We are making available an adapted version of Compound Figure Separator [1] - [Panel Extraction Src](http://intranet.recod.ic.unicamp.br/~jcardenuto/pub/sila/content-segmentation/panel_extraction_src.zip) to our data
 
 
 
