@@ -3,4 +3,5 @@ Pillow>=5.0.0
 PyMuPDF==1.14.21
 pytesseract>=0.3.4
 opencv-python
-
+# use this version if you face any issues with the previous one
+# opencv-python==4.6.0.66
